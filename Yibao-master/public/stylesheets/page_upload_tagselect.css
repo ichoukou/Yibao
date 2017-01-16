@@ -1,0 +1,28 @@
+#page_upload_tagselect{
+	background:rgba(255, 255, 255, 0.4);
+}
+#page_upload_tagselect .row{
+	font-size:0;
+	height: 22%;
+}
+#page_upload_tagselect .tagWrap{
+	display:inline-block;
+	width:50%;
+}
+#page_upload_tagselect .tag{
+	border-radius: 40px;
+	background: black;
+	width: 80px;
+	height: 80px;
+	margin:auto;
+}
+
+#page_upload_tagselect>p{
+	text-align: right;
+	padding-right: 15px;
+	font-size: 20px;
+	margin:5px 0 0 0;
+}
+#page_upload_tagselect>p .fa{
+	padding:10px;
+}

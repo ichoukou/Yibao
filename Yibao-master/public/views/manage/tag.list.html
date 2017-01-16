@@ -1,0 +1,30 @@
+<div class="content-title">
+    <span>标签管理</span>
+    <div class="right floated small ui button" ng-click="insert()">添加标签</div>
+</div>
+<div class="content-body">
+    <table class="text-align-left-th">
+        <thead>
+        <tr>
+            <th width="25%">标签名称</th>
+            <th width="20%">创建时间</th>
+            <th width="20%">状态</th>
+            <th width="35%">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="tag in tags">
+            <td>{{tag.name}}</td>
+            <td>{{tag.createTime | date : "yyyy-MM-dd"}}</td>
+            <td>{{tag.status=='DEACTIVE'? '隐藏' : '激活'}}</td>
+            <td>
+                <div class="right floated small ui button remove" ng-click="remove($index,tag)">删除</div>
+                <div class="right floated small ui button" ng-class="tag.status=='DEACTIVE'?'green' : 'remove'"
+                     ng-click="toggleStatus(tag)">{{tag.status=='DEACTIVE'? "激活" : "隐藏"}}</div>
+                <div class="right floated small ui button green" ui-sref=".edit({tagid:tag._id,index:$index})">编辑</div>
+                <div class="right floated small ui button green" ng-show="tag.post" ng-click="preview(tag._id)">预览文章</div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

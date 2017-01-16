@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>画室画作管理</title>
+    <meta name="Description" content="Bootstrap3" />
+    <link rel="stylesheet" href="http://cdn.gbtags.com/twitter-bootstrap/3.2.0/css/bootstrap.css" type="text/css" media="screen" />
+    <style>
+        @import url('http://cdn.gbtags.com/twitter-bootstrap/3.2.0/css/bootstrap.css');
+    </style>
+<body>
+<div class="content-title">
+    <span class="glyphicon glyphicon-chevron-left" style="height: 25px" ng-click="goback()"></span>
+    <span style="font-size: 25px">{{studio.nickname}}</span>
+    <div style="float: right">
+        <button class="btn btn-primary" ng-click="add_picture(add_imgSrc,studio._id)" >添加画作</button>
+        <!--<button class="btn btn-primary" ng-click="delete_picture(studio)" >删除画作</button>-->
+    </div>
+</div>
+<div class="content-title" style="margin-top: 10px">
+    <input class="" type="file" file-model="myFile"/>
+</div>
+
+<div class="container" style="float: left"  >
+    <!--<hr>-->
+    <div class="row" style="margin-top: 10px">
+        <div class="col-lg-2 col-sm-3 col-xs-4" ng-repeat="img in imageSrc">
+            <img ng-src={{img.picUrl}} class="thumbnail img-responsive">
+            <button class="btn btn-primary" ng-click="remove($index,img)">删除</button>
+        </div>
+    </div>
+    <!--<hr>-->
+    <br><br>
+</div>
+</body>
+
+<!-- 导入相关js -->
+<script src="http://cdn.gbtags.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.gbtags.com/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fac45a0f68a119fbe4d1c4c3ac3044dbd' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</html>

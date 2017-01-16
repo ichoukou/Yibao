@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>艺伴</title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+	    <link rel="stylesheet" type="text/css" href="/bower_components/fontawesome/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="/vote/css/index.css" type="text/css" />
+	</head>
+
+	<body>
+		<div class="container" id="page_index">
+			<div class="TM"></div>
+			<div class="box">
+				<div class="date"></div>
+				<div class="detail" onClick="openRule()"></div>	
+				<div class="clearfix"></div>
+			</div>
+			<a href="/wechat/auth?page=VOTE_ENROLL" class="enroll"></a>
+
+			<div class="tab">
+				<div class="tab1 tabfocused" id="tab1">
+					学生组
+				</div>
+				<div class="tab2" id="tab2">
+					教师组
+				</div>
+			</div>
+			<div class="order">
+				<span class="time" id="tabTime">
+					<i class="fa fa-dot-circle-o"></i>
+					<i class="fa fa-circle-o display"></i>
+					按时间&nbsp;
+				</span>
+				<span class="number" id="tabNumber">
+					&nbsp;
+					<i class="fa fa-dot-circle-o display"></i>
+					<i class="fa fa-circle-o"></i>
+					按票数
+				</span>
+			</div>
+			<div id="index-content">
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ruleTxt display" id="ruleTxt" onClick="closeRule()">
+			<i class="fa fa-close" onClick="closeRule()"></i>
+			<div class="txt">
+				1.每个账号限投 3 票 <br/>
+				2.大赛报名时间截至2016年1月1日<br/>
+				3.大赛奖项丰厚，奖品分为学生，应届生及老师组<br/>
+				4.大赛最终解释权归"艺伴"所有 <br/> <br/>
+				<b>教师组</b> <br/>
+				一等奖 <b>(5名)</b> <br/>
+				a、《完美教学》一套（素描速写色彩） <br/>
+				b、青竹24色油画颜料一套 <br/>
+				c、“艺伴”主讲3次 <b>（量身定做宣传主页，在千人社群线上主讲，与学生交流）</b> <br/> <br/>
+				二等奖 <b>(15名)</b> <br/>
+				a、《完美教学》两本（素描、速写、色彩任选） <br/>
+				b、青竹12色油画颜料一套 <br/>
+				c、获得“艺伴”每周坐镇大咖机会2次(30名)</b> <br/>
+				a、《完美教学》一本（素描、速写、色彩任选） <br/>
+				b、青竹36色水粉果冻颜料一盒 <br/>
+				c、“艺伴”主讲2次 <b>（量身定做宣传主页，在千人社群线上主讲，与学生交流）</b> <br/> <br/>
+				<b>学生组</b> <br/>
+				一等奖 <b>(5名)</b> <br/>
+				a、豪华水粉果冻颜料七件套（果冻颜料56色+配套颜料盒+精致水粉笔+折叠水桶等） <br/>
+				b、“艺伴”线下大咖考前集训班学费7.8折优惠券！ <br/>
+				c、《完美教学》一本（素描、色彩、速写，种类任选） <br/> <br/>
+				二等奖 <b>(30名)</b> <br/>
+				a、12色罐装水粉颜料一套 <br/>
+				b、“艺伴”线下大咖考前集训班学费8.8折优惠券！ <br/>
+				c、《完美教学》一本（素描、色彩、速写，种类任选） <br/> <br/>
+				三等奖 <b>(80名)</b> <br/>
+				a、“艺伴”线下大咖考前集训班学费9折优惠券 <br/>
+				b、《完美教学》一本（素描、色彩、速写，种类任选） <br/> <br/>
+				<b>应届组</b> <br/>
+				一等奖 <b>(5名)</b> <br/>
+				a、豪华版小推车一辆 <br/>
+				b、便携折叠小扎椅一个<br/>
+				c、36色果冻水粉颜料一盒 <br/> <br/>
+				二等奖 <b>(30名)</b> <br/>
+				a、豪华版小推车一辆 <br/>
+				b、24色果冻颜料一盒 <br/> <br/>
+				三等奖 <b>(80名)</b> <br/>
+				a、24色果冻颜料一盒 <br/> <br/> <br/> <br/> <br/> <br/>
+			</div>
+		</div>	
+	</body>
+	<script type="text/template" id="feedTemplate">
+		<div class="feed template">
+			<div class="contact" id="{#_id#}">
+				<img src="{#picUrl#}" width="100%"/>
+				<div>
+					<div class="name">{#nickname#}</div>
+					<div class="num">{#num#}票</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="title">{#title#}</div>
+				<div class="vote">
+					投票
+				</div>
+				<div class="voted display">
+					已投票
+				</div>
+			</div>
+		</div>
+	
+	</script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script type="text/javascript" src="/vote/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="/vote/js/index.js"></script>
+</html>

@@ -1,0 +1,17 @@
+<header>
+    <div class="title">{{post.title}}</div>
+    <div>
+        <span><i class="fa fa-tag"></i> {{post.category.name}} 素描</span>
+        <span>{{post.createTime | date : "yyyy-MM-dd"}}</span></div>
+    <div class="tag">
+        <span ng-repeat="tag in post.tags" class="ui button green">{{tag.name}}</span>
+    </div>
+</header>
+<div class="content">
+    <div class="cover"><img ng-src="{{post.picUrl}}"></div>
+    <article id="mainContent"></article>
+</div>
+<footer>
+    <span>阅读 {{post.viewNum}}</span>
+    <span><i class="fa fa-thumbs-o-up"></i> {{post.likeNum}}</span>
+</footer>

@@ -1,0 +1,68 @@
+{
+	"_id" : "12344",
+	"picUrl" : "http://img5.duitang.com/uploads/item/201310/16/20131016202334_uuMHn.jpeg",
+	"content" : "请教各位大神",
+	"kudoNum" : 128,
+	"favourNum" : 10,
+	"isFavour" : true,
+	"isKudo" : true,
+	"commentNum" : 10,
+	"viewNum" : 1830,
+	"tags" : ["色彩"],
+    "tagid" : "0000",
+	"createTime" : "2015-09-01 20:01:08",
+	"editTime" : "2015-09-01 20:01:08",
+	"owner" : {
+		"profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+		"nickname" : "席梦ying2",
+		"grade" : "高三",
+		"district" : "山东",
+		"city" : "合肥"
+	},
+    "comments" : [
+        {
+            "_id" : "8891712",
+            "owner" : {               
+                "_id" : "23244777",
+				"profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+                "nickname"  :"张重重",
+                "district" : "北京",
+                "city" : "北京",
+                "organization" : "中央美术学院",
+                "flowerNum" : 1090
+            },
+			"tags" : [
+				{"tagName" : "形体结构"},{"tagName" :"表现手法"}
+			],
+            "contents" : [
+                {
+                    "type" : "voice",
+                    "url" : "",
+                    "length" : 12000,
+                    "createTime" : "2015-09-01 20:10:08",
+                    "isAsker" : false
+                },
+                {
+                    "type" : "text",
+                    "content" : "请问老师，如何才能把色彩控制得更好",
+                    "createTime" : "2015-09-01 20:12:08",
+                    "isAsker" : true
+                },
+                {
+                    "type" : "voice",
+                    "url" : "",
+                    "length" : 10000,
+                    "createTime" : "2015-09-01 20:20:08",
+					"isAsker" : false
+                }							
+            ]
+        }
+    ],
+    "reviews" : [
+        {
+            "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+            "nickname" : "席梦ying",
+            "review" : "加油哦"
+        }
+    ]
+}

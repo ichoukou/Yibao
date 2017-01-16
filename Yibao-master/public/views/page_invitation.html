@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="stylesheets/page_invitation.css" type="text/css" media="screen" />
+<div id="page_invitation">
+	<div class="title">
+		<div class="title_back">
+			<i class="fa fa-angle-left" ng-click="goback()">
+			</i>
+		</div>
+		<div class="title_name">
+			<font>收到邀请</font>
+		</div>
+	</div>
+	<div class="main-content">
+	<div class="column" ng-repeat="invitation in invitations">
+		<div class="head-portrait">
+			<div class="head-img">
+			</div>
+			<div class="class">
+				LV{{invitation.user.rank}}
+			</div>
+			<div class="notice">
+			</div>
+		</div>
+		<div class="info">
+			<div class="info-name">
+				{{invitation.user.nickname}}
+			</div>
+			<br />
+			<div class="info-time">{{invitation.editTime | HQDate}}</div>
+		</div>
+		<div class="invitation">
+			<div class="text">邀请您点评画作</div>
+			<div class="flower-icon"  ng-if="invitation.flowerNum!=0">
+			<div class="flowers">
+			</div>
+			<div class="flowersNum">
+				<span>x</span>
+				{{invitation.flowerNum}}</div>
+		</div>
+		</div>
+		<img ng-src="{{invitation.profile}}" height="47px"/>
+	</div>
+		</div>
+</div>

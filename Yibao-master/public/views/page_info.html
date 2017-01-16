@@ -1,0 +1,169 @@
+
+<div id="page_info" class="page">
+  <div class="card-template">
+	<div class="card-image" ng-style="{'background-image' : 'url('+user.headimg+')'}">
+	</div>
+  <div class="card-gray">
+  </div>
+	<div class="card">
+      <div class="editTitle">
+        <i class="fa fa-edit" ui-sref="edit">  
+        </i>
+      </div>
+      <div class="head">
+        <div class="headPortrait" ng-style="{'background-image' : 'url('+user.headimg+')'}">
+          <div class="rank" ng-show="isStudent">{{user.rank}}</div>
+        </div>
+        <div class="v" ng-hide="isStudent" ng-show="user.isIdentited">
+        </div>
+      </div>
+      <div class="identity" ng-hide="isStudent">
+        {{isIdentited}}
+      </div>
+      <div class="info">
+        <div class="name" ng-class="{'margin':isStudent}">{{user.name}}</div>
+        <!--<span class="class">(老师)</span>-->
+        <div class="visit">
+          <span>访问量:</span>
+          <span>{{user.visitNum}}</span>
+        </div>
+        <div class="address">
+          <span class="district">{{user.district}}</span>
+          <span class="city">{{user.city}}</span>
+          <span class="school" ng-hide="isStudent" >{{user.unit}}</span>
+        </div>
+      </div>
+      <div class="tab" ng-hide="isStudent">
+        <div class="comment">
+          <div class="text">已点评
+          </div>
+          <div class="num">{{user.commentNum}}
+          </div>
+        </div>
+        <div class="fans">
+          <div class="text">粉丝
+          </div>
+          <div class="num">{{user.fansNum}}
+          </div>
+        </div>
+        <div class="flowers">
+          <div class="text">鲜花
+          </div>
+          <div class="num">{{user.flowersNum}}
+          </div>
+        </div>
+        <div class="favour">
+          <div class="text">赞
+          </div>
+          <div class="num">{{user.favourNum}}
+          </div>
+        </div>
+      </div>
+      <div class="tab" ng-show="isStudent">
+        <div class="min-tab works">
+          <div class="text">画作
+          </div>
+          <div class="num">{{user.worksNum}}
+          </div>
+        </div>
+        <div class="min-tab focus">
+          <div class="text">关注
+          </div>
+          <div class="num">{{user.focusNum}}
+          </div>
+        </div>
+        <div class="min-tab fan">
+          <div class="text">粉丝
+          </div>
+          <div class="num">{{user.fansNum}}
+          </div>
+        </div>
+      </div>
+	</div>
+  </div>
+  <div class="list-container">
+    <div class="main-content">
+      <div class="line-column invitation" ui-sref="getInvitation">
+        <div class="icon" id ="icon">
+        </div>
+        <span>{{invitation}}</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column publish" ui-sref="publish">
+        <div class="icon" id ="icon">
+        </div>
+        <span>我的发布</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column comment" ui-sref="getComment">
+        <div class="icon" id ="icon">
+        </div>
+        <span>收到评论</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column homepage" ui-sref="homePage">
+        <div class="icon" id ="icon">
+        </div>
+        <span>我的主页</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column message" ui-sref="yibaoNoting">
+        <div class="icon" id ="icon">
+        </div>
+        <span>艺宝通知</span>
+        <i class="fa fa-angle-right">
+        </i>
+      </div>
+    </div>
+    <div class="contact-content" ng-show="false">
+      <div class="line-column contacts" ui-sref=".contacts">
+        <div class="icon" id ="icon">
+        </div>
+        <span>通信录</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column chat" ui-sref=".chat">
+        <div class="icon" id ="icon">
+        </div>
+        <span>聊天</span>
+        <i class="fa fa-angle-right">
+        </i>
+      </div>
+    </div>
+    <div class="mine-content">
+      <div class="line-column favour" ui-sref="favour">
+        <div class="icon" id ="icon">
+        </div>
+        <span>我的收藏</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column attention" ui-sref="focus">
+        <div class="icon" id ="icon">
+        </div>
+        <span>我的关注</span>
+        <i class="fa fa-angle-right">
+        </i>
+        <div class="line"></div>
+      </div>
+      <div class="line-column fans" ui-sref="fans">
+        <div class="icon" id ="icon">
+        </div>
+        <span>我的粉丝</span>
+        <i class="fa fa-angle-right">
+        </i>
+      </div>
+    </div>
+  </div>
+</div>

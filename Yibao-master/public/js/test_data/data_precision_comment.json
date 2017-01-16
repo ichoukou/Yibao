@@ -1,0 +1,75 @@
+{
+	"_id" : "12345",
+	"picUrl" : "http://pic.58pic.com/01/16/22/53bOOOPIC8b.jpg",
+	"content" : "请教各位大神",
+	"kudoNum" : 128,
+	"isFavour" : true,
+	"isKudo" : false,
+	"favourNum" : 10,
+	"commentNum" : 10,
+	"viewNum" : 1830,
+	"tags" : ["色彩"],
+	"createTime" : "2015-09-01 20:01:08",
+	"editTime" : "2015-09-01 20:01:08",
+	"owner" : {
+		"profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+		"nickname" : "席梦ying",
+		"grade" : "高三",
+		"district" : "山西",
+		"city" : "临汾"
+	},
+    "comments" : [
+        {
+            "_id" : "8891712",
+            "owner" : {               
+                "_id" : "23244777",
+				"profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+                "nickname"  :"张重重",
+                "district" : "北京",
+                "city" : "北京",
+                "organization" : "中央美术学院",
+                "flowerNum" : 1090
+            },
+			"tags" : [
+				{"tagName" :"形体结构"},{"tagName" : "表现手法"}
+			],
+            "contents" : [
+                {
+                    "type" : "voice",
+                    "url" : "",
+                    "length" : 12000,
+                    "createTime" : "2015-09-01 20:10:08",
+                    "isAsker" : false
+                },
+                {
+                    "type" : "voice",
+                    "url" : "",
+                    "length" : 10000,
+                    "createTime" : "2015-09-01 20:20:08",
+					"isAsker" : false
+                }							
+            ]
+        },
+		{
+            "_id" : "8891712",
+            "owner" : {
+                "_id" : "23244777",
+				"profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+                "nickname"  :"刘习文",
+                "district" : "北京",
+                "city" : "北京",
+                "organization" : "中央美术学院",
+                "flowerNum" : 1090
+            },
+            "contents" : [
+                {
+                    "type" : "voice",
+                    "url" : "",
+                    "length" : 1200000,
+                    "createTime" : "2015-09-01 20:10:08",
+                    "isAsker" : false
+                }					
+            ]
+        }
+    ]
+}

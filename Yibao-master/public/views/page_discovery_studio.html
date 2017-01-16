@@ -1,0 +1,42 @@
+<div id="tab2">
+  <div id="page-tab2sidebar-content">  
+	  <div class="feed" ng-if="!isLoading" ng-repeat="cate in cates" ui-sref=".({cateid:cate._id})" ui-sref-active="sidefocused">
+		<ul>
+		  <li>{{cate.name}}</li>
+		</ul>
+	  </div>
+  </div>
+  <div id="page-studio-content">  
+	  <div class="content">
+		<div class="feed" ng-repeat="item in list"  ng-if="cateid!=='0001'" >
+		  <div class="studiobar">
+			<div class="profile">
+			  <img ng-src="{{item.profile}}">
+			</div>
+			<div class="info">
+			  <span class="studioname">{{item.nickname}}</span><br/>
+			  <span class="studioinfo">{{item.district}}&nbsp;{{item.city}}</span><br/>
+			  <span class="studiostate">报名&nbsp;{{item.apply}}&nbsp;&nbsp;粉丝&nbsp;{{item.fansnum}}</span>
+			</div>
+			<div class="ranking">
+			  {{item.ranking}}
+			</div>
+		  </div>
+		</div>
+		<div class="feed" ng-repeat="item in list" ng-if="cateid=='0001'">
+		  <div class="box">
+			<div ng-class="item.isRed ? 'redcircle' : 'yellowcircle'">
+			  <div class="text">
+				{{item.firstcondition}}
+				<br/>
+				{{item.secondcondition}}
+			  </div>
+			</div>
+			<div class="title">
+			  {{item.title}}
+			</div>
+		  </div>
+		</div>
+	  </div>
+  </div>
+</div>

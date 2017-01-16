@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="stylesheets/page_yibao_noting.css" type="text/css" media="screen" />
+<div id="page_yibao_noting">
+	<div class="main-title">
+		<div class="title_back" ui-sref="base.me">
+			<i class="fa fa-angle-left"></i>
+		</div>
+		<div class="title_name">
+			艺宝通知
+		</div>
+	</div>
+	<div class="contain">
+		<ul class="thumb">
+			<li class="thumbnail" ng-repeat="noting in notes">
+				<div class="head-portrait">
+						<img src="img/head.jpg" height="45px" width="45px">
+					<div class="noting-dot"></div>
+					<!--默认显示小红点-->
+				</div>
+				<div class="noting-info">
+					<span class="noting-title">
+						{{noting.title}}
+					</span>
+					<br/>
+					<span class="noting-brief">
+						{{noting.brief}}...
+					</span>
+				</div>
+				<div class="time">{{noting.editTIme | HQDate}}</div>
+			</li>
+		</ul>
+	</div>
+</div>

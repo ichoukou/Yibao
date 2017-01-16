@@ -1,0 +1,70 @@
+<div class="header" style="font-size:22px">
+    编辑画室
+    <div class="rightbox" ui-sref="^">
+        <span class="fa fa-close"></span>
+    </div>
+</div>
+
+<div class="content" >
+    <div class="editor"  style="overflow:auto">
+        <div class="edit-content">
+            <form role="form" style="margin-left: 20px">
+                <div class="form-group">
+                    <label>画室名称</label>
+                    <input class="form-control" id="name"
+                           ng-model="name" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="phone">画室电话</label>
+                    <input type="text" class="form-control" id="phone"
+                           ng-model="phone" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="is_qualified">是否认证</label>
+                    <input type="text" class="form-control" id="is_qualified"
+                           ng-model="is_qualified" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="address">地址</label>
+                    <input type="text" class="form-control" id="address"
+                           ng-model="address" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="responsible">负责人</label>
+                    <input type="text" class="form-control" id="responsible"
+                           ng-model="responsible" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="resphone">负责人电话</label>
+                    <input type="text" class="form-control" id="resphone"
+                           ng-model="resphone" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="text" class="form-control" id="email"
+                           ng-model="email" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="QQ">QQ</label>
+                    <input type="text" class="form-control" id="QQ"
+                           ng-model="QQ" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="website">网址</label>
+                    <input type="text" class="form-control" id="website"
+                           ng-model="website" style="width: 50%" contenteditable>
+                </div>
+                <div class="form-group">
+                    <label for="photo">头像URL</label>
+                    <input type="text" class="form-control" id="photo"
+                           ng-model="photo" style="width: 50%" contenteditable>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="options">
+        <div class="right floated small ui button green" ng-click="save()">保存</div>
+    </div>
+
+</div>

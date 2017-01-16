@@ -1,0 +1,612 @@
+#page_comment{
+	font-family: Microsoft Yahei;
+}
+#page_comment .main-title{
+	position: fixed;
+	z-index: 2;
+	width:100%;
+	height:38px;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #b7b7b7;
+	-moz-box-shadow:0 1px 2px #b7b7b7;
+	box-shadow:0 1px 2px #b7b7b7;
+}
+#page_comment .title_back{
+	position:relative;
+	float:left;
+	width:20%;
+}
+#page_comment .title_name{
+	position:relative;
+	float:left;
+	width: 60%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17px;
+	color:black;
+}
+#page_comment .fa-angle-left{
+	margin-left: 14.667px;
+	margin-top: 5px;
+	color:rgb(137,137,137);
+	font-size: 26px;
+}
+#page_comment .fa-angle-left:active{
+	color:rgb(255,177,57);
+}
+#page_comment .finish{
+	position:relative;
+	float:right;
+	width: 20%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17.333px;
+	color:rgb(71,169,199);
+}
+#page_comment .container{
+	position:fixed;
+	width:100%;
+	height:auto;
+	top:38px;
+	bottom:0;
+	z-index: 1;
+	overflow-y: auto;
+	background: rgb(237,237,237);
+}
+#page_comment .question-tags{
+	position: relative;
+	float: left;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom: 6px;
+}
+#page_comment .lab
+{
+	height:18px;
+	width:auto;
+	float:left;
+	margin-right:-6px;
+	margin-bottom:8px;
+}
+#page_comment .fa-caret-left
+{
+	color:rgb(71,176,199);
+	font-size:35.8px;
+	float:left;
+	position: relative;
+	top: -7px;
+}
+#page_comment .fa-circle
+{
+	position: relative;
+	z-index: 2;
+	right:66px;
+	font-size: 12px;
+	-webkit-transform: scale(0.5);  
+	color: white;
+	position: relative;
+	bottom:1px;
+}
+#page_comment .rect-tag
+{
+	background-color:rgb(71,176,199);
+	font-size:8px;
+	height:18px;
+	line-height:18px;
+	width:auto;
+	float:left;
+	color:white;
+	padding:2px 5px;
+	position: relative;
+	left:-1px;
+}
+#page_comment .comments-rect{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	background: white;
+}
+#page_comment .teacher-comment{
+	position: relative;
+	float:left;
+	left:16px;
+	height:auto;
+	width:auto;
+}
+#page_comment .header
+{
+    position: relative;
+    float:left;
+    height: 41px;
+    width: 41px;
+    margin-top:9px;
+}
+#page_comment .header .headPortrait
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background:url(../img/head.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+}
+#page_comment .header .v
+{
+    position: absolute;
+    z-index: 3;
+    width:12px;
+    height:12px;
+    border-radius:6px;
+    right:1px;
+    bottom:1px;
+    background:url(../img/icon.png)no-repeat;
+    background-size: 1132.47px 586.6px;
+    background-position: -606.305px -185.4px;
+}
+#page_comment .content{
+	position: relative;
+	float:left;
+	width:70%;
+	height:auto;
+	padding-left: 10px;
+}
+#page_comment .answer
+{
+	margin-top:15px;
+	margin-bottom: 15px;
+	height:auto;
+	position:relative;
+	float:left;
+	width:100%;
+}
+#page_comment .fa-volume-up
+{
+	font-size:8px;
+	color:#fff;
+	position:relative;
+	left:6px;
+}
+#page_comment .rect-answer,
+#page_comment .rect-answer-text
+{
+    position:relative;
+	min-height:22.7px;
+	line-height: 15px;
+    border-radius:5px;
+	max-width:60%;
+}
+#page_comment .rect-answer-text
+{
+	float:left;
+	background-color:rgb(215,215,215);
+	padding:0px 13px 0px 10px;
+	line-height: 18px;
+	color:rgb(108,108,108);
+	display:inline;
+	font-size:9px;
+}
+#page_comment .rect-answer
+{
+	width:200px;
+	background-color:rgb(71,176,199);
+	float:left;
+	
+}
+#page_comment .length
+{
+	float:left;
+	position:relative;
+	left:1px;
+	top:4px;
+	font-size:8px;
+	color:rgb(213,213,213);
+}
+#page_comment .time-answer,#page_comment .time-ask
+{
+	color:rgb(157,157,157);
+	font-size:8px;
+	float:right;
+	position:relative;
+	right:7%;
+	bottom:0px;
+}
+#page_comment .time-ask
+{
+	float:left;
+	left:17%;
+}
+#page_comment .card-content
+{
+	position:relative;
+	top:3px;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom: 6.667px;
+}
+#page_comment .card-content .information
+{
+	position:relative;
+	width:100%;
+	height:42px;
+	background:rgb(255,255,255);
+}
+
+#page_comment .card-content .information .head
+{
+	position:relative;
+	float:left;
+	margin-top: 1.333px;
+	margin-left:4%;
+	height:40.667px;
+	width:40.667px;
+	border-radius:50%;
+}
+
+#page_comment .card-content .information .head img
+{
+	position:relative;
+	margin:auto;
+	width:40.667px;
+	height:40.667px;
+	border-radius:50%;
+}
+
+#page_comment .card-content .information .data
+{
+	position:relative;
+	float:left;
+	width:60%;
+	height:40.667px;
+	margin-top: 1.333px;
+	margin-left:1%;
+}
+
+#page_comment .card-content .information .data .upper
+{
+	position: relative;
+	float:left;
+	height:20px;
+	width:100%;
+}
+
+#page_comment .card-content .information .data .name,
+#page_comment .card-content .information .data .classNo,
+#page_comment .card-content .information .data .down,
+#page_comment .card-content .information .data .cardtime,
+#page_comment .card-content .information .data .province,
+#page_comment .card-content .information .data .city 
+{
+	position:relative;
+	float:left;
+}
+
+#page_comment .card-content .information .data .name
+{
+	top:5px;
+	color:black;
+	font-size:12px;
+}
+
+#page_comment .card-content .information .data .classNo
+{
+	margin-left:4.333px;
+	color:rgb(149,149,149);
+	font-size:10px;
+	top:6px;
+}
+
+#page_comment .card-content .information .data .down
+{
+	top:2px;
+	width:100%;
+	height:9px;
+}
+
+#page_comment .card-content .information .data .cardtime
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	font-family:Helvetica;
+}
+
+#page_comment .card-content .information .data .province
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	margin-left:7.333px;
+	font-family:Helvetica;
+}
+
+#page_comment .card-content .information .data .city
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	margin-left:5px;
+	font-family:Helvetica;
+}
+
+/*#page_precision_comment .card-content .information .evaluate
+{
+	position:relative;
+	float:right;
+	width:20%;
+	height: 40.667px;
+	padding-top: 1.333px;
+	background:url(./image/precision-evaluation.png)no-repeat;
+	background-size: 27px;
+	background-position: 10% 6.667px;
+}
+
+#page_precision_comment .card-content .information .evaluate .text
+{
+	position:relative;
+	float:right;
+	top:12px;
+	height:auto;
+	width:50%;
+	color:rgb(243,173,41);
+	font-family: ;
+	font-size: 10px;
+}*/
+#page_comment .card-content .works
+{
+	position: relative;
+	height:auto;
+	margin-top:4.667px;
+	left:4.63%;
+	width:90.74%;
+	height:auto;
+	background:white;
+}
+
+#page_comment .card-content .works .image
+{
+	min-width:30%; 
+	max-height: 200px;
+}
+
+#page_comment .card-content .works .image img
+{
+	min-width:30%;
+	max-width: 300px; 
+	max-height: 200px;
+}
+
+#page_comment .card-content .works .text
+{
+	margin-top: 6.667px;
+	position:relative;
+	font-size: 11px;
+	font-family: ;
+}
+
+#page_comment .card-content .category
+{
+	position:relative;
+	margin-top:1.333px;
+	left:4.63%;
+	width:90.74%;
+	height:16px;
+	background-size:30.667px;
+	background-position: 0.667px 0.667px;
+	border-bottom:1px solid rgb(218,218,218); 
+}
+
+#page_comment .card-content .category i
+{
+	position:relative;
+	float:left;
+	top:2px;
+	font-size:10px;
+	color:rgb(172,138,242);
+}
+
+#page_comment .card-content .category .tag
+{
+	position:relative;
+	float:left;
+	left:3px;
+	top:-0.667px;
+	font-size:9px;
+	color:rgb(149,149,149);
+}
+#page_comment .card-content .category .fa-tag:before
+{
+	color:rgb(149,149,149);
+}
+
+#page_comment .comment
+{
+    padding: 0 0 0 15px;
+	margin-bottom: 6.667px;
+	width:96%;
+	height:30px;
+	line-height:30px;
+	color:rgb(149,149,149);
+	background-color: white;
+}
+#page_comment .comment> div{
+	display:inline-block;
+	font-size:13px;
+	vertical-align:top
+}
+#page_comment .comment> div>span{
+	font-size:13px;
+}
+
+#page_comment .comment .pageview,#page_comment .comment .love,
+#page_comment .comment .collection
+{
+	width:20%;
+}
+#page_comment .up
+{
+	color:rgb(71,176,199);
+}
+
+#page_comment .down
+{
+	color:rgb(149,149,149);
+}
+#page_comment .teacher-comments-header,#page_comment .question-tags .title
+{
+	position:relative;
+	float:left;
+	height:22.7px;
+	line-height:22.7px;
+	font-size:15.7px;
+	color:rgb(255,177,57);
+	background:white;
+	width: 100%;
+	text-indent: 4.63%;
+}
+
+#page_comment .teacher-comments-header
+{
+	margin-top:5.7px;
+	margin-bottom: 3px;
+}
+#page_comment .teacher-comments
+{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom:4px;
+	border-bottom:1px solid rgb(236,236,236);
+	border-top:1px solid rgb(236,236,236);
+}
+#page_comment .profile img
+{
+	position:relative;
+	display:block;
+	float:left;
+	margin-left:4.63%;
+    width:40.667px;
+    height:40.667px;
+    border-radius:50%;
+}
+#page_comment .teacher-info,#page_comment .info
+{
+	height:40px;
+}
+#page_comment .info
+{
+	position:relative;
+	float:left;
+	width:50%;
+	height:40.667px;
+	margin-left:1%;
+}
+#page_comment .name
+{
+	font-size:12px;
+	height:20px;
+	color:rgb(54,54,54);
+}
+#page_comment .info-infor
+{
+	position:relative;
+	top:-5px;
+	font-size:10px;
+	color:rgb(149,149,149);
+}
+#page_comment .label
+{
+	position:relative;
+	float:left;
+	border:0;
+	height:auto;
+	width:83.5%;
+	margin-top:2px;
+	padding-left: 4.63%;
+}
+#page_comment .contents
+{
+	margin-top:13.7px;
+	padding-bottom:12.3px;
+}
+#page_comment .answer,#page_comment .ask
+{
+	margin-top:31px;
+	margin-bottom: 10px;
+	height:auto;
+	position:relative;
+	float:left;
+	width:84.26%;
+}
+#page_comment .ask
+{
+	min-height:22.7px;
+	position:relative;
+	width:96%;
+	float:left;
+}
+#page_comment .answer
+{
+	left:15.74%;
+}
+#page_comment .fa-volume-up
+{
+	font-size:8px;
+	color:#fff;
+	position:relative;
+	left:6px;
+}
+
+#page_comment .rect-ask,#page_comment .rect-answer
+{
+    position:relative;
+	min-height:22.7px;
+    border-radius:5px;
+	max-width:60%;
+}
+#page_comment .rect-answer-text
+{
+	float:left;
+	background-color:rgb(215,215,215);
+	padding:5px 13px 5px 10px;
+	color:rgb(108,108,108);
+	display:inline;
+	font-size:9px;
+}
+#page_comment .rect-answer
+{
+	width:200px;
+	background-color:rgb(71,176,199);
+	float:left;
+	
+}
+#page_comment .rect-ask
+{
+	display:inline;
+	background-color:rgb(215,215,215);
+	font-size:9px;
+	color:rgb(108,108,108);
+	padding:5px 13px 5px 10px;
+	float:right;
+}
+#page_comment .length
+{
+	float:left;
+	position:relative;
+	left:1px;
+	top:4px;
+	font-size:6px;
+	color:rgb(213,213,213);
+}
+#page_comment .ask-length
+{
+	float:right;
+	position:relative;
+	right:1px;
+	top:4px;
+	font-size:6px;
+	color:rgb(213,213,213);
+}

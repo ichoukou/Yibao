@@ -1,0 +1,27 @@
+<div id="tab4">
+  <div id="page-tab4sidebar-content">  
+	  <div class="feed" ng-if="!isLoading" ng-repeat="cate in cates" ui-sref=".({cateid:cate._id})" ui-sref-active="sidefocused">
+		<ul>
+		  <li>{{cate.name}}</li>
+		</ul>
+	  </div>
+  </div>
+  <div id="page-school-content">  
+	  <div class="content">
+		<div class="feed" ng-repeat="item in list">
+		  <div class="schoolbar">
+			<div class="profile">
+			  <img ng-src="{{item.profile}}">
+			</div>
+			<div class="info">
+			  <span class="schoolname">{{item.nickname}}</span><br/>
+			  <span class="schoolinfo">{{item.district}}&nbsp;{{item.city}}</span>
+			</div>
+			<div class="addfollow">
+			  收藏
+			</div>
+		  </div>
+		</div>
+	  </div>
+  </div>
+</div>

@@ -1,0 +1,269 @@
+html,body
+{
+	padding: 0;
+	margin:0;
+	font-family: "Microsoft Yahei";
+	color:rgb(248,181,51);
+	background:#f9f9f9;
+}
+.template,.headTemplate
+{
+	display: none !important;
+}
+.display
+{
+	display: none;
+}
+.rule
+{
+	font-size: 15px;
+	color: rgb(243,173,41);
+	position: absolute;
+	z-index: 100;
+	right: 5px;
+	top: 3px;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: underline;
+}
+.container
+{
+	width: 100%;
+	background:#f9f9f9;
+	overflow: auto;
+	text-align: center;
+}
+.TM{
+	position: relative;
+	width:100%;
+	height:110px;
+	background:url(http://yibao.oss-cn-beijing.aliyuncs.com/voteTm.png) no-repeat;
+	background-size:100%;
+}
+.date{
+    position: relative;
+	float:left;
+	width:180px;
+	height:30px;
+	background:url(http://yibao.oss-cn-beijing.aliyuncs.com/voteDate.png) no-repeat;
+	background-size: 100%;
+}
+.detail{
+	position: relative;
+	float:left;
+	margin-top: 3px;
+	width: 80px;
+	height: 30px;
+	background: url(http://yibao.oss-cn-beijing.aliyuncs.com/votedetail.png) no-repeat;
+	background-size: 100%;
+}
+.clear,.clearfix{
+    clear:both;
+}
+.box{
+    display:inline-block;
+}
+.work-text p{
+    padding:0;
+    margin:0;
+}
+.enroll
+{
+	position: relative;
+	width: 125px;
+	height: 74px;
+	border-radius: 4px;
+	display: block;
+	background: url(http://yibao.oss-cn-beijing.aliyuncs.com/getStarted.png) no-repeat;
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.enroll.active{
+    background: url(http://yibao.oss-cn-beijing.aliyuncs.com/myHomePage.jpg) no-repeat;
+    background-size: 90%;
+}
+.enroll:active
+{
+	background-color: rgb(236,236,236);
+	color: white;
+}
+.enroll a{
+	color: rgb(236,236,236);
+	text-decoration: none;
+}
+.enroll a:active
+{
+	color: white;
+	text-decoration: none;
+}
+.tab
+{
+	position: relative;
+	margin-top: 10px;
+	height: 25px;
+	width: 164px;
+	margin-left: auto;
+	margin-right: auto;	
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.tab1,.tab2
+{
+	float: left;
+	height: 100%;
+	line-height: 25px;
+	width: 80px;
+	text-align: center;
+	color:rgb(248,181,51);
+	border: 1px solid rgb(248,181,51);
+}
+.tab1
+{
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.tab2
+{
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.tabfocused
+{
+	color:white;
+	background-color: rgb(248,181,51);
+}
+.order
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.time,.number
+{
+	width: 48.9%;
+}
+.time
+{
+	text-align: right;
+}
+.number
+{
+	text-align: left;
+}
+.fa
+{
+	font-size: 12px;
+}
+hr
+{
+	/* position: relative; */
+	/* top: 100px; */
+	border-top: 0.5px solid white;
+}
+.feed{
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-bottom : 25px;
+}
+.contact
+{
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	text-align: left;
+	font-size: 13px;
+}
+.contact img{
+	position: relative;
+	width:100%;
+	height: auto;
+	margin: auto;
+}
+.contact .name
+{
+	font-size: 13px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+	width:55%;
+	float:left;
+}
+.contact .title
+{
+	width: 100%;
+	font-size: 14px;
+	font-weight:bold;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.contact .num{
+    float:left;
+    height: 20px;
+    padding: 3px 0;
+    font-size : 15px;
+    font-weight:bold;
+    text-align:right;
+    width:45%;
+    color: rgb(243,173,41);
+    line-height: 16px;
+}
+.vote,.voted
+{
+    margin-top:3px;
+	width: 100%;
+	height: 24px;
+	font-size: 14px;
+	border-radius: 2px;
+	text-align: center;
+	color: white;
+	line-height: 24px;
+}
+.vote:active{
+	background: rgb(208,208,208);
+}
+.vote
+{
+	background: rgb(243,173,41);
+}
+.voted
+{
+	background-color: #acacac;
+}
+.ruleTxt
+{
+	position: absolute;
+	top:0;
+	height:100%;
+	overflow-y:auto;
+	z-index: 100;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+}
+.fa-close
+{
+	font-size: 40px;
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	font-weight: 300;
+}
+.txt
+{
+	text-align: left;
+	margin: auto;
+	width: 270px;
+	height: auto;
+	position: relative;
+	top: 58px;
+    font-size: 15px;
+    line-height: 24px;
+
+	letter-spacing: 2px;
+	font-weight: 300;
+	overflow: scroll;
+}

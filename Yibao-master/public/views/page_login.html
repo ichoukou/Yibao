@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="stylesheets/page_login.css" type="text/css" media="screen" />
+<div class="page" id="page_login">
+	<div class="field-login">
+	<input type="number" id="ID" class="ID" placeholder="请输入您的手机号"
+		   ng-model="form.telephone" ng-pattern="/[0-9]{11}/">
+	</input>
+	<input type="number" class="verification-code" placeholder="请输入验证码"
+		   ng-model="form.code" ng-pattern="/[0-9]{6}/">
+	</input>
+	<div class="send-code" ng-class="{true: 'ready',false: 'waitting'}[isReady]" ng-click="sendcode()">
+		<span>{{sendcodetxt}}</span>
+	</div>
+	<div class="login" id="login">
+		<span>登录</span>
+	</div>
+	<div class="credit">
+		<span>登录表示同意</span>
+		<span>用户协议</span>
+	</div>
+	</div>
+	<div class="slogan">
+	</div>
+</div>

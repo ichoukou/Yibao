@@ -1,0 +1,115 @@
+#page_works_display{
+	font-family: Microsoft Yahei;
+}
+#page_works_display .template{
+	display:none;
+}
+#page_works_display .main-title{
+	position: fixed;
+	z-index: 2;
+	width:100%;
+	height:38px;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #b7b7b7;
+	-moz-box-shadow:0 1px 2px #b7b7b7;
+	box-shadow:0 1px 2px #b7b7b7;
+}
+#page_works_display .title_back{
+	position:relative;
+	float:left;
+	width:20%;
+}
+#page_works_display .title_name{
+	position:relative;
+	float:left;
+	width: 60%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17px;
+	color:black;
+}
+#page_works_display .fa-angle-left{
+	margin-left: 14.667px;
+	margin-top: 5px;
+	color:rgb(137,137,137);
+	font-size: 26px;
+}
+#page_works_display .fa-angle-left:active{
+	color:rgb(255,177,57);
+}
+#page_works_display .finish{
+	position:relative;
+	float:right;
+	width: 20%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17.333px;
+	color:rgb(71,169,199);
+}
+#page_works_display .contain{
+	position: absolute;
+	z-index: 1;
+	overflow-y:auto;
+	top:38px;
+	width:100%;
+	height:auto;
+	bottom:0;
+	background: rgb(237,237,237);
+}
+#page_works_display .works_card{
+	position: relative;
+	float: left;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom:6px;
+	padding-bottom: 10px;
+	font-size:10px;
+	color:rgb(149,149,149);
+}
+#page_works_display .works_info{
+	position: relative;
+	width:100%;
+	padding-top:10px;
+	height:20px;
+}
+#page_works_display .works_time{
+	position: relative;
+	float:left;
+	left:17px;
+}
+#page_works_display .works_num{
+	position: relative;
+	float:right;
+	right:17px;
+}
+#page_works_display .works{
+	position: relative;
+	float:left;
+	width: auto;
+	height:auto;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+#page_works_display .work{
+	position: relative;
+	float:left;
+	margin:2px;
+}
+<div class="contain">
+		<div class="works_card">
+			<div class="works_info">
+				<div class="works_time">
+					2015-09
+				</div>
+				<div class="works_num">
+					6幅
+				</div>
+			</div>
+			<div class="works">
+				<img src="" height="180px" width="180"/>
+			</div>
+		</div>
+	</div>

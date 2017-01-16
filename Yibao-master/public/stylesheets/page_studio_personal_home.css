@@ -1,0 +1,130 @@
+#page_studio_personal_home
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:2;
+	font-family: "Microsoft YaHei";
+}
+.middle-menu
+{
+	margin-top: 5.3px;
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid black;
+}
+#page_studio_personal_home .brief,#page_studio_personal_home .environment,#page_studio_personal_home .achievement
+{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 32.7%;
+}
+.middle-menu .text
+{
+	position: absolute; 
+	font-size: 9px;
+	color: rgb(17,17,17);
+	text-align: center;
+	width: 100%;
+	bottom:5px;
+}
+.works-show,.teaching-staff,.lessons
+{
+	background-color: white;
+	margin-top: 5.3px;
+	padding-left: 6px;
+	border: 1px solid black;
+}
+.works-show
+{
+	height:104.7px;
+}
+.teaching-staff
+{
+	height:89.7px;
+}
+.lessons
+{
+	height:auto;
+}
+.title
+{
+	height: 15px;
+	margin-top: 2px;
+	margin-bottom: 9px;
+	padding: 0;
+	border: 1px solid black;
+	
+}
+.titlename
+{
+	height: 15px;
+	line-height: 15px;
+	float: left;
+	font-size: 10px;
+	color: rgb(149,149,149);
+	margin-left: 2px;
+}
+.edit
+{
+	float: right;
+	font-size: 10px;
+	color: rgb(46,165,191);
+	margin-right: 15px;
+}
+.middle-menu .icon
+{
+	width: 38.3px;
+	height: 38.3px;
+	position: absolute; 
+	left: 50%; 
+	top: 35%;
+    transform: translate(-50%, -50%);
+}
+.works-show .icon,.teaching-staff .icon,.lessons .icon
+{
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+.icon
+{
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.icon-brief
+{
+	background-size: 4000%;
+	background-position: -393px -83px;
+}
+.icon-environment
+{
+	background-size: 4100%;
+	background-position: -393px -184px;
+}
+.icon-achievement
+{
+	background-size: 4100%;
+	background-position: -392px -137px;
+}
+.icon-work
+{
+	background-size: 5400%;
+	background-position: -140px -7px;
+}
+.icon-teacher
+{
+	background-size: 5400%;
+	background-position: -76px -7px;
+}
+.icon-lesson
+{
+	background-size: 5400%;
+	background-position: -97px -7px;
+}

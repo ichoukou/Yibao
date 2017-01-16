@@ -1,0 +1,74 @@
+[
+  {
+    "_id" : "23244777",
+    "firstcondition" : "报名",
+    "secondcondition" : "最多",
+    "title" : "画室报名最多",
+    "isRed" : true
+  },
+  {
+    "_id" : "23244776",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中央美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244775",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244774",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244773",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244772",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244771",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244770",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "color" : "rgb(255,177,58)",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244769",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "color" : "rgb(255,177,58)",
+    "isRed" : false
+  },
+  {
+    "_id" : "23244768",
+    "firstcondition" : "过线率",
+    "secondcondition" : "最高",
+    "title" : "中国美术学院",
+    "isRed" : false
+  }
+]

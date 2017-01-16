@@ -1,0 +1,126 @@
+#page_yibao_noting .main-title
+{
+	position:relative;
+	float:left;
+	width:100%;
+	height:38px;
+	z-index: 2;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #c7c7c7;  
+ 	-moz-box-shadow:0 1px 2px #c7c7c7;  
+    box-shadow:0 1px 2px #c7c7c7;
+    font-family: Microsoft Yahei; 
+}
+
+#page_yibao_noting .title_back
+{
+	position:relative;
+	float:left;
+	width: 20%;
+}
+#page_yibao_noting .title_back i
+{
+	margin-left: 14.667px;
+	margin-top: 6px;
+	font-size: 26px;
+	color:rgb(129,129,129); 
+}
+#page_yibao_noting .title_back i:active
+{
+	color:rgb(255,177,57);
+}
+#page_yibao_noting .title_name
+{
+	position:relative;
+	float:left;
+	width: 60%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17.333px;
+	color:black;
+}
+#page_yibao_noting .contain{
+	position: absolute;
+	background:rgb(236,236,236);
+	bottom:0;
+	top:38px;
+	width:100%;
+	font-family: Microsoft Yahei;
+}
+#page_yibao_noting ul
+{
+	position: relative;
+	float:left;
+	height:auto;
+	background: transparent;
+	width: 100%;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+#page_yibao_noting li
+{
+	position: relative;
+	float:left;
+	width:100%;
+	padding-top:8px;
+	height:59px;
+	background: white;
+	margin-bottom: 6px;
+}
+#page_yibao_noting .head-portrait
+{
+	position: relative;
+	float:left;
+	width:50px;
+	height:50px;
+	margin-left: 13px;
+}
+#page_yibao_noting .head-portrait img
+{
+	position: relative;
+	float: left;
+	margin-left:3px;
+	border-radius: 50%;
+}
+#page_yibao_noting .noting-dot
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background:rgb(235,37,37);
+}
+#page_yibao_noting .noting-info
+{
+	position: relative;
+	float: left;
+	height:auto;
+	width:58%;
+}
+#page_yibao_noting .noting-info .noting-title
+{
+	position: relative;
+	float: left;
+	font-size: 14px;
+	color:rgb(32,32,32);
+	line-height: 20px;
+}
+#page_yibao_noting .noting-info .noting-brief
+{
+	position: relative;
+	float: left;
+	font-size: 8px;
+}
+#page_yibao_noting .thumbnail .time
+{
+	position:relative;
+	float: right;
+	font-size:8px;
+	margin-right: 20px;
+	color:rgb(125,125,125);
+	line-height: 20px;
+}

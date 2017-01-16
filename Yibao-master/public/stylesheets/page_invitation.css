@@ -1,0 +1,181 @@
+#page_invitation{
+	font-family: Microsoft YaHei;
+}
+#page_invitation .title
+{
+	position:relative;
+	float:left;
+	width:100%;
+	height:38px;
+	z-index: 2;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #c7c7c7;  
+ 	-moz-box-shadow:0 1px 2px #c7c7c7;  
+    box-shadow:0 1px 2px #c7c7c7; 
+}
+
+#page_invitation .title_back
+{
+	position:relative;
+	float:left;
+	width: 20%;
+}
+#page_invitation .title_back i
+{
+	margin-left: 14.667px;
+	margin-top: 6px;
+	font-size: 26px;
+	color:rgb(149,149,149); 
+}
+#page_invitation .title_back i:active
+{
+	color:rgb(255,177,57);
+}
+#page_invitation .title_name
+{
+	position:relative;
+	float:left;
+	width: 60%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17.333px;
+	color:black;
+}
+#page_invitation .main-content{
+	position: fixed;
+	height:auto;
+	width:100%;
+	bottom:0;
+	top:38px;
+	z-index: 1;
+	background: rgb(235,235,235);
+	overflow: auto;
+}
+#page_invitation .column{
+	position: relative;
+	width:100%;
+	height:60px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	background: white;
+	margin-bottom: 5px;
+}
+#page_invitation .head-portrait{
+	position:relative;
+	float:left;
+	width:40px;
+	height:40px;
+	margin-top: 8px;
+	margin-left: 19px;
+}
+#page_invitation .head-img{
+	position: relative;
+	float:left;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: url(../img/head.jpg) no-repeat;
+	background-size: 100%;
+}
+#page_invitation .class{
+	position: absolute;
+	bottom:0;
+	right:1px;
+	width:16px;
+	border-radius:3px;
+	background:rgb(255,177,60);
+	text-align: center;
+	color:white;
+	font-size: 7px;
+	line-height: 9px;
+}
+#page_invitation .notice{
+	position: absolute;
+	top:0;
+	left:0;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background:rgb(235,37,37);
+}
+#page_invitation .info{
+	position: relative;
+	float: left;
+	margin-top: 13px;
+	width:auto;
+	height:auto;
+}
+#page_invitation .info-name{
+	position: relative;
+	float:left;
+	line-height: 16px;
+	color:rgb(71,176,199);
+	font-size: 15px;
+	text-indent: 3px;
+	font-weight: bold;
+	font-family: Helvectica Regular;
+}
+#page_invitation .info-time{
+	position: relative;
+	float:left;
+	top:-6px;
+	font-size: 10px;
+	text-indent: 3px;
+	color:rgb(149,149,149);
+}
+#page_invitation .invitation{
+	position: relative;
+	float: left;
+	width: auto;
+	height:auto;
+	margin-top: 13px;
+}
+#page_invitation .invitation .text{
+	position: relative;
+	float: left;
+	width: auto;
+	height:auto;
+	margin-left: 6px;
+	font-size: 14px;
+	color:rgb(112,112,112);
+}
+#page_invitation .flower-icon{
+	position: relative;
+	float: left;
+	margin-left: 2px;
+	width:29px;
+	height:12px;
+	padding-left:1px;
+	border:1px solid rgb(255,100,98);
+	border-radius:2px; 
+}
+#page_invitation .flowers{
+	position: relative;
+	float:left;
+	margin-top: 1px;
+	width:11px;
+	height:11px;
+	background:url(../img/icon.png);
+	background-size: 208px 379px;
+	background-position: -131px -81px;
+}
+#page_invitation .flowersNum{
+	position: relative;
+	float:left;
+	top:-3px;
+	margin-left: 2px;
+	color:rgb(255,100,98);
+	font-size: 10px;
+}
+#page_invitation .flowersNum span{
+	position: relative;
+	font-size: 12px;
+	top:-1px;
+}
+#page_invitation img{
+	position: relative;
+	float:right;
+	margin-right: 16px;
+	margin-top: 6px;
+}

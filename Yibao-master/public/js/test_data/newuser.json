@@ -1,0 +1,244 @@
+[
+  {
+	"_id" : "0001",
+	"uid" : "",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪dd",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0002",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪ff",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  },
+  {
+	"_id" : "0003",
+	"uid" : "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪gg",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0004",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪oo",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  },
+  {
+	"_id" : "0005",
+	"uid" : "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪kk",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0006",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪pp",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  },
+  {
+	"_id" : "0007",
+	"uid" : "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪aa",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0008",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪ee",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  },
+  {
+	"_id" : "0009",
+	"uid" : "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪cc",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0010",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪yy",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  },
+  {
+	"_id" : "0011",
+	"uid" : "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname" : "猪猪ii",
+	"birthday" : "2001-02-01",
+	"gender" : "FEMALE",
+	"status" : "REGISTERED",
+	"createTime" :  "2015-09-10 00:00:00",
+	"editTime" :  "2015-09-10 00:00:00",
+	"verify" : {
+	  "ing" : false,
+	  "uid" : null,
+	  "telephone" : null,
+	  "code" : null,
+	  "sendTime" : null,
+	  "tryCount" : null,
+	  "tryTime" : null
+	}
+  },
+  {
+	"_id": "0012",
+	"uid": "AsuperrandomStringData",
+	"telephone" : "15678602901",
+	"nickname": "猪猪bb",
+	"birthday": "2001-02-01",
+	"gender": "FEMALE",
+	"status": "REGISTERED",
+	"createTime" : "2015-09-10 00:00:00",
+	"editTime": "2015-09-10 00:00:00",
+	"verify":{
+	  "ing": false,
+	  "uid": null,
+	  "telephone": null,
+	  "code": null,
+	  "sendTime": null,
+	  "tryCount": null,
+	  "tryTime": null
+	}
+  }
+]
+
+

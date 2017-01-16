@@ -1,0 +1,21 @@
+<div class="content-title">
+    <span>父子标签列表</span>
+</div>
+<div class="content-body">
+    <table class="text-align-left-th">
+        <thead>
+        <tr>
+            <th width="20%">父标签</th>
+            <th width="20%">子标签</th>
+            <th width="20%">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="tag in linkedTags">
+            <td>{{tag.parent.name}}</td>
+            <td>{{tag.name}}</td>
+            <td><div class="right floated small ui button green" ng-click="release($index,tag)">解除</div></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

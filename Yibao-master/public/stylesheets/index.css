@@ -1,0 +1,168 @@
+html,body{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	font-size:16px;
+	font-family:monospace;
+}
+
+body{
+	overflow:hidden;
+}
+
+.fullpage{
+	width:100%;
+	height:100%;
+	-webkit-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+	-webkit-transition: all 800ms ease;
+	transition: all 800ms ease;
+
+}
+
+.section{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color:#f1eff0;
+}
+#section_0{
+	top: 0;
+	bottom: 0;
+}
+#section_1{
+	top:100%;
+}
+#section_2{
+	top:200%;
+	text-align: center;
+}
+
+.navbar-default {
+  background-color: #e1e1e1;
+  border-color:rgb(202, 202, 202);
+  -moz-box-shadow: 0 -1px 10px #ABA0A0; /* 老的 Firefox */
+  box-shadow: 0 -1px 10px #ABA0A0;
+}
+.navbar-brand {
+	padding:10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color:#47b0c6;
+	color:white;
+	font-style:bold;
+}
+.top-logo{
+	height:91%;
+}
+.logo-container{
+	margin:auto;
+	margin-top:4%;
+	margin-bottom:5%;
+	width:40%;
+	min-width:300px;
+}
+.logo-container img{
+	width:100%;
+}
+
+
+.downloads a{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+.downloads img{
+	width: 160px;
+}
+
+
+.phoneBox{
+	height: 579px;
+	width : 276px;
+	position:absolute;
+	top : 40px;
+	left: 32%;
+}
+.phoneBox .phonebg{
+	width :100%;
+}
+
+img.phonePage{
+	position:absolute;
+	top: 67px;
+    left: 23px;
+    width: 233px;
+	display:none;
+}
+.phonePage.phonePage2{
+	top:64px;
+	height:420px;
+}
+img.phonePage.active{
+	display:block;
+}
+.guide{
+
+}
+.guide-btns{
+	margin-top:30%;
+}
+.guide-btns .guide-btn{
+	height:80px;
+}
+.guide-text{
+	color: #47B0C7;
+    font-size: 23px;
+    float: right;
+	height: 80px;
+	width: 100%;
+	visibility : hidden;
+	opacity :0;
+
+}
+.guide-text.active{
+	-webkit-transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+	opacity : 1;
+	visibility : visible;
+}
+.guide-text p{
+	margin:0;
+	float : right;
+}
+.guide-text .number{
+	font-size : 26px;
+	font-weight:800;
+	float : right;
+}
+.circle{
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgb(71, 176, 199);
+	display: block;
+	border-radius: 15px;
+}
+
+.active .circle{
+	background:rgb(71, 176, 199);
+}
+
+
+.companyInfo{
+	position:absolute;
+	height: 20%;
+	bottom: 40%;
+	top:40%;
+	width:100%;
+}
+.bottom-img{
+	width : 100%;
+	height: 25%;
+	position: absolute;
+	bottom: 0;
+}
+.bottom-img img{
+	height: 100%;
+	max-width : 90%;
+}

@@ -1,0 +1,31 @@
+<div class="listview">
+  <div id="page-sidebar-content"  ng-swipe-right="goStrategy()">
+	<div class="loading" ng-if="isLoading"></div>
+	<div class="feed" ng-if="!isLoading" ng-repeat="cate in cates"
+		 ui-sref=".({cateid:cate._id})" ui-sref-active="sidefocused">
+	  <ul>
+		<li class="sidebar">{{cate.name}}</li>
+	  </ul>
+	</div>
+  </div>
+  <div class="consult">	
+	<div id="page-consult-content" ng-swipe-right="goStrategy()">
+	  <div class="loading">
+	  </div>
+	  <div class="feed" ng-repeat="item in list"  ng-click="haveView(item._id)" ng-disabled="isDisabled">
+		<div class="consult-bar">
+		  <div class="profile">
+			<img ng-src="{{item.thumbUrl}}"/>
+		  </div>
+		  <div class="consult-info">
+			<div class="title">{{item.title}}</div>
+			<div class="time">{{item.time}}</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+<!-- Here is for ui-router's modal -->
+<!-- The reason is that, the child state needs at least one ui-view to init controller -->
+<div class="hidden" ui-view></div>

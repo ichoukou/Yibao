@@ -1,0 +1,46 @@
+<div id="tab1">
+  <div id="page-news-content" ng-swipe-left="goZixun()">
+	<div class="loading" ng-if="isLoading">
+	  内容加载中 ...
+	</div>
+
+	<div class="feed" ng-repeat="article in articles">
+		<div class="card" ng-click="haveView(article._id)">
+			<div class="picture">
+			  <input type="hidden" class="feed_id josn_id" />
+			  <img ng-src="{{article.picUrl}}"/>
+			  <div class="title">{{article.title}}</div>
+			</div>
+		</div>
+		<div class="brief">	
+			<div class="subtitle">
+				{{article.subtitle}}
+			</div>
+		  <hr/>
+		  <div class="comment">
+			<div class="pageview">
+			  <i class="fa fa-eye"></i>
+			  <div class="text">
+				{{article.viewNum}}
+			  </div>
+			</div>
+			<div class="love">
+			  <i class="fa fa-thumbs-o-up" ng-class="article.isFavour ? 'up' : 'down'"></i>
+			  <div class="text">
+				{{article.favourNum}}
+			  </div>
+			</div>
+			<div class="collection">
+			  <i class="fa fa-star" ng-class="article.isKudo ? 'up' : 'down'"></i>
+			  <div class="text">
+				{{article.kudoNum}}
+			  </div>
+			</div>
+		  </div>
+		</div> 
+	</div>
+  </div>
+</div>
+<!-- Here is for ui-router's modal -->
+<!-- The reason is that, the child state needs at least one ui-view to init controller -->
+<div class="hidden" ui-view></div>

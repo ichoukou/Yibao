@@ -1,0 +1,79 @@
+<div class="page" id="page_search">
+	<div class="header">
+		<i class="fa fa-search"></i>
+		<input type="text" ng-model="search">
+		<span ui-sref="base.discovery" ui-sref-active="active">取消</span>
+	</div>
+	<div class="content" ng-if="teachers.length">
+		<div class="title">
+			名师
+		</div>
+		<div class="resbar" ng-repeat="teacher in teachers | filter:search">
+			<div class="profile">
+				<img ng-src="{{teacher.profile}}">
+			</div>
+			<div class="name">
+				{{teacher.nickname}}
+			</div>
+		</div>
+	</div>
+	<div class="content" ng-if="studios.length">
+		<div class="title">
+			画室
+		</div>
+		<div class="resbar" ng-repeat="studio in studios | filter:search">
+			<div class="profile">
+				<img ng-src="{{studio.profile}}">
+			</div>
+			<div class="name">
+				{{studio.nickname}}
+			</div>
+		</div>
+	</div>
+	<div class="content" ng-if="masters.length">
+		<div class="title">
+			画霸
+		</div>
+		<div class="resbar" ng-repeat="master in masters | filter:search">
+			<div class="profile">
+				<img ng-src="{{master.profile}}">
+			</div>
+			<div class="name">
+				{{master.nickname}}
+			</div>
+		</div>
+	</div>
+	<div class="content" ng-if="schools.length">
+		<div class="title">
+			高校
+		</div>
+		<div class="resbar" ng-repeat="school in schools | filter:search">
+			<div class="profile">
+				<img ng-src="{{school.profile}}">
+			</div>
+			<div class="name">
+				{{school.nickname}}
+			</div>
+		</div>
+	</div>
+	<div class="content" ng-if="strategys.length">
+		<div class="title">
+			攻略
+		</div>
+		<div class="resbar" ng-click="haveView(article._id)" ng-repeat="strategy in strategys | filter:search">
+			<div class="name">
+				{{strategy.title}}
+			</div>
+		</div>
+	</div>
+	<div class="content" ng-if="zixuns.length">
+		<div class="title">
+			资讯
+		</div>
+		<div class="resbar" ng-click="haveView(article._id)" ng-repeat="zixun in zixuns | filter:search">
+			<div class="name">
+				{{zixun.title}}
+			</div>
+		</div>
+	</div>
+</div>

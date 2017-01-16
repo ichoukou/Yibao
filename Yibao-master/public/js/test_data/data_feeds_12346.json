@@ -1,0 +1,22 @@
+  {
+    "_id": "12346",
+    "picUrl": "http://demo.jinguoyuan.com/pzlinfomng/PZLUPLOAD/WZFBW1001/jpg/XZLADMIN121011104957.jpg",
+    "content": "hi,",
+    "kudoNum": 1281,
+    "isKudo": true,
+    "favourNum": 100,
+    "isFavour": true,
+    "commentNum": 110,
+    "viewNum": 21830,
+    "tags": ["素描"],
+    "tagid" : "0001",
+    "createTime": "2015-09-01 20:01:08",
+    "editTime": "2015-09-01 20:01:08",
+    "owner": {
+      "profile": "http://img5.duitang.com/uploads/item/201508/12/20150812204032_eiAQk.thumb.224_0.jpeg",
+      "nickname": "yx212333",
+      "grade": "高三",
+      "district": "四川",
+      "city": "绵阳"
+    }
+  }

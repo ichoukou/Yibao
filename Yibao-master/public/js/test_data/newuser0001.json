@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "0001",
+    "uid": "",
+    "telephone": "15678602901",
+    "nickname": "猪猪dd",
+    "birthday": "2001-02-01",
+    "gender": "FEMALE",
+    "status": "REGISTERED",
+    "createTime": "2015-09-10 00:00:00",
+    "editTime": "2015-09-10 00:00:00",
+    "verify": {
+      "ing": false,
+      "uid": null,
+      "telephone": null,
+      "code": null,
+      "sendTime": null,
+      "tryCount": null,
+      "tryTime": null
+    }
+  }
+]
+
+

@@ -1,0 +1,33 @@
+<div class="content-title">
+  <span>分类管理</span>
+  <div class="right floated small ui button" ng-click="insert()">添加分类</div>
+</div>
+<div class="content-body">
+  <table class="text-align-left-th">
+    <thead>
+      <tr>
+        <th width="30%">分类名</th>
+        <th width="30%">父分类</th>
+        <th width="10%">文章数</th>
+        <th width="10%">状态</th>
+        <th width="20%">操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="cate in cates">
+		<td>{{cate.name}}</td>
+        <td>{{cate.parent.name}}</td>
+		<td>10</td>
+		<td>{{cate.status=='DEACTIVE'? '隐藏' : '激活'}}</td>
+		<td>
+		  <div class="right floated small ui button remove" ng-click="remove($index,cate)">删除</div>
+		  <div class="right floated small ui button" ng-class="cate.status=='DEACTIVE'?'green' : 'remove'"
+			   ng-click="toggleStatus(cate)">{{cate.status=='DEACTIVE'? "激活" : "隐藏"}}</div>
+      <div class="right floated small ui button green" ui-sref=".edit({cateid:cate._id,index:$index})">编辑</div>
+		</td>
+	  </tr>
+    </tbody>
+    <tbody>
+	</tbody>
+  </table>
+</div>

@@ -1,0 +1,71 @@
+<div class="header">
+  文章编辑
+  <div class="rightbox" ui-sref="^">
+    <span class="fa fa-close"></span>
+  </div>
+</div>
+<div class="content">
+  <div class="left-area">
+    <div class="left-title">介绍</div>
+    <div ng-model="post.profile" contenteditable class="editbox"></div>
+    <div class="left-title">子标题</div>
+    <div ng-model="post.subtitle" contenteditable class="editbox"></div>
+    <div class="left-title">封面图片</div>
+    <div>
+      <img ng-src="{{post.picUrl}}" class="cover img-thumbnail"></div>
+    <div class="left-title">缩略图片</div>
+    <div>
+      <img ng-src="{{post.thumbUrl}}" class="thumb img-thumbnail"></div>
+  </div>
+  <div class="right-area">
+    <div class="editor">
+      <div class="edit-title">
+        <input type="text" class="edit-title-input" placeholder="标题" ng-model="post.title" />
+        <div class="title-seperator-line"></div>
+      </div>
+      <div class="edit-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-2">
+              <span style="margin-bottom:4px">文章标签</span>
+            </div>
+            <div class="col-sm-10 tags">
+              <div class="button green left small" ng-repeat="tag in post.tags">
+                {{tag.name}}</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">封面</div>
+            <div class="col-sm-2">
+              <button class="uploadButton btn btn-default btn-sm">
+                <input type="file" id="cover">上传图片</button>
+            </div>
+            <div class="col-sm-2">
+              <button ng-click="addCover('cover')" type="button" class="btn btn-default btn-sm">预览</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8">缩略图</div>
+            <div class="col-sm-2">
+              <button class="uploadButton btn btn-default btn-sm">
+                <input type="file" id="thumbnail">上传图片</button>
+            </div>
+            <div class="col-sm-2">
+              <button ng-click="addThumbnail('thumbnail')" type="button" class="btn btn-default btn-sm">预览</button>
+            </div>
+          </div>
+          <div class="summernote"></div>
+        </div>
+      </div>
+    </div>
+    <div class="options">
+        <select ng-model="post.category._id">
+          <option ng-repeat="cate in cates" value="{{cate._id}}">{{cate.name}}</option>
+        </select>
+        <input type="text" ng-model="myTags" placeholder="自定义标签，逗号分隔">
+        <button ng-click="saveTags()"  class="btn btn-default btn-sm">提交标签</button>
+        <button ng-click="removeTags()" class="btn btn-default btn-sm">删除标签</button>
+        <div class="right floated small ui button green" ng-click="save()">保存</div>
+    </div>
+  </div>
+</div>

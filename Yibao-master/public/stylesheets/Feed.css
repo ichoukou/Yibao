@@ -1,0 +1,190 @@
+.feed .card
+{
+	width:100%;
+	background:rgb(255,255,255);
+	margin-bottom: 6.667px;
+}
+
+.feed .info
+{
+	position:relative;
+	width:100%;
+	height:42px;
+	background:rgb(255,255,255);
+}
+
+.feed .info .head
+{
+	position:relative;
+	float:left;
+	margin-top: 1.333px;
+	margin-left:14.667px;
+	height:40.667px;
+	width:40.667px;
+	border-radius:50%;
+}
+
+.feed .info .head img
+{
+	position:relative;
+	margin:auto;
+	width:40.667px;
+	height:40.667px;
+	border-radius:50%;
+}
+
+.feed .info .data
+{
+	position:relative;
+	float:left;
+	width:60%;
+	height:40.667px;
+	margin-top: 1.333px;
+	margin-left:1%;
+}
+
+.feed .info .data .upper
+{
+	position: relative;
+	float:left;
+	height:20px;
+	width:100%;
+}
+
+.feed .info .data .name,
+.feed .info .data .classNo,
+.feed .info .data .time,
+.feed .info .data .province,
+.feed .info .data .city 
+{
+	position:relative;
+	float:left;
+}
+
+.feed .info .data .name
+{
+	position:relative;
+	float:left;
+	top:5px;
+	color: #6F6F6F;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.feed .info .data .classNo
+{
+	position:relative;
+	float:left;
+	margin-left:4.333px;
+	color:rgb(149,149,149);
+	font-size:10px;
+	top:6px;
+}
+
+.feed .info .data .down
+{
+	position:relative;
+	top:2px;
+	width:100%;
+	height:9px;
+	font-size:12px;
+}
+
+.feed .info .data .province
+{
+	color:rgb(149,149,149);
+	font-family:Helvetica;
+}
+
+.feed .info .data .city
+{
+	color:rgb(149,149,149);
+	margin-left:5px;
+	font-family:Helvetica;
+}
+.feed .works
+{
+	position: relative;
+	height:auto;
+	margin-top:4.667px;
+	left:4.63%;
+	width:90.74%;
+	height:auto;
+}
+
+.feed .works .image
+{
+	min-width:30%; 
+	max-height: 200px;
+}
+
+.feed .works .image img
+{
+	min-width:30%; 
+	max-width: 97%;
+	max-height: 200px;
+}
+
+.feed .works .text
+{
+	position:relative;
+	font-size:12px;
+	margin-top:5px;
+    text-align: left;
+}
+
+.feed .category
+{
+	padding: 8px 0 8px 15px;
+	width:90.74%;
+	font-size:13px;
+	height:15px;
+	line-height:15px;
+	border-bottom:1px solid rgb(238,238,238);
+	color:rgb(172,138,242);
+}
+
+.feed .comment
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(149,149,149);
+	background:white;
+    font-size: 0;
+}
+.feed .comment> div{
+	display:inline-block;
+	font-size:13px;
+	vertical-align:top;
+	text-align:center;
+}
+.feed .comment> div>span{
+	font-size:13px;
+}
+
+.feed .comment .pageview
+{
+	width:20%;
+	margin-left: 4%;
+}
+.feed .comment .comments,.feed .comment .love,
+.feed .comment .collection
+{
+	width:20%;
+}
+.feed .comment .comments {
+    width: 25%;
+    background: url(../img/comment.png) no-repeat;
+	background-size: 73px 92%;
+	height: 28px;
+    margin-top: 2px;
+    margin-left: 7%;
+}
+.feed .comment .up .fa{
+    color: rgb(71,169,199);
+}
+.feed .comment .down .fa
+{
+	color: rgb(149,149,149);
+}

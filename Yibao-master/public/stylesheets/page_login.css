@@ -1,0 +1,128 @@
+#page_login
+{
+	width:100%;
+	height:100%;
+	background:rgb(236,236,236);
+	font-family: Microsoft YaHei;
+}
+#page_login .TM
+{
+	position: relative;
+	width:90px;
+	height:38px;
+	top:200px;
+	margin:auto;
+	background:url(../img/icon.png) no-repeat;
+    background-size: 454px 827px;
+    background-position:-143px -499px;
+}
+#page_login .field-login
+{
+	position:absolute;
+	height:auto;
+	width: 75%;
+	top:40px;
+	left:12.5%;
+}
+#page_login .field-login input[type='number']{
+	position:relative;
+	float:left;
+	height:32px;
+	line-height: 32px;
+	border-radius: 11px;
+	background: transparent;	
+	outline: none;
+	text-align: center;
+	font-size: 15px;
+	color:rgb(85,85,85);
+	border: 1px solid rgb(71,176,199);
+}
+#page_login .ID
+{
+	width:100%;
+}
+#page_login .verification-code
+{
+	top: 16px;
+	width: 59.259%;
+}
+#page_login .field-login .send-code
+{
+	position: relative;
+	float:right;
+	top:16px;
+	width:30.864%;
+	height:34px;
+	border-radius: 15px;
+	text-align: center;
+	font-size:14px;
+}
+#page_login .field-login .send-code span
+{
+	position: relative;
+	line-height: 34px;
+	color: white;
+}
+#page_login .field-login .login
+{
+	position:relative;
+	float:left;
+	top:50px;
+	width:100%;
+	height:34px;
+	border-radius: 15px;
+	background: rgb(71,176,199);
+	text-align: center;
+}
+#page_login .field-login .login span
+{
+	position: relative;
+	line-height: 32px;
+	color: white;
+}
+#page_login .slogan
+{
+	position:relative;
+	width:229px;
+	height:23px;
+	top:400px;
+	margin:auto;
+	background:url(../img/icon.png) no-repeat;
+    background-size: 454px 827px;
+    background-position:-94px -276px;
+	opacity: 0.5;
+}
+#page_login .credit
+{
+	position:absolute;
+	width:100%;
+	height:40px;
+	top:200px;
+	line-height: 40px;
+	text-align: center;
+	font-size:12px;
+}
+#page_login .credit span:first-child
+{
+	color:rgb(172,172,172);
+}
+#page_login .credit span:last-child
+{
+	color:rgb(71,176,199);
+}
+#page_login input.ng-invalid
+{
+	border: 1px solid red !important;
+}
+#page_login .ready
+{
+	background: rgb(71,176,199);
+}
+#page_login .waitting
+{
+	background:rgb(208,208,208);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

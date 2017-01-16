@@ -1,0 +1,27 @@
+<div class="page" id="page_news_view">
+  <div id="page-newsview-content">
+	<div class="loading" ng-if="isLoading">
+	  loading
+	</div>
+	<div class="views"  ng-if="!isLoading">
+	  <div class="feed">
+		<div class="header" >
+		  <i class="fa fa-angle-left" ui-sref="^" ng-click></i>
+		  <span class="header-name">
+			{{news.title}}
+		  </span>
+		</div>
+		
+		<div class="content">
+		  
+		  <div>
+			<iframe class="view" src="{{news.contentUrl | trustAsResourceUrl}}" allowtransparency="yes" frameborder="0" scrolling="yes" >
+			</iframe>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  
+</div>

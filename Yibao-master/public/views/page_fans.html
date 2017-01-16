@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="stylesheets/page_fans.css" type="text/css" media="screen" />
+<div class="page" id="page_fans">
+    <div class="title">
+        <div class="title_back"> <i class="fa fa-angle-left" ui-sref="base.me"></i>
+        </div>
+        <div class="title_name"> <font>粉絲</font>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="column" ng-repeat="fan in fans">
+            <div class="head-portrait">
+                <div class="head-img"></div>
+                <div class="class">LV</div>
+                <div class="notice"></div>
+            </div>
+            <div class="info">
+                <div><span class="name">{{fan.name}}</span>&nbsp;&nbsp;({{fan.role}})</div>
+                <div>{{fan.district}}&nbsp;{{fan.city}}&nbsp;{{fan.fansNum}}</div>
+            <div class="flower" ng-if="fan.role">
+                <div class="flower-icon"  ng-if="invitation.flowerNum!=0"></div>
+                <div>x{{fan.flowersNum}}</div>
+            </div>
+            <div class="attention">
+                <div ng-click>+ 關注</div>
+            </div>
+
+        </div>
+    </div>
+</div>

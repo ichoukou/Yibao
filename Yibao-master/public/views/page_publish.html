@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="stylesheets/page_publish.css" type="text/css" media="screen" />
+<div id="page_publish">
+		<div class="main-title">
+		<div class="title_back" ui-sref="base.me">
+			<i class="fa fa-angle-left"></i>
+		</div>
+		<div class="title_name">
+			我的发布
+		</div>
+	</div>
+	<div class="contain" id="works_contain">
+		<div class="works_card" ng-repeat="workcate in workcates">
+			<div class="card-content">
+				<div class="works_info">
+					<div class="works_time text">
+						{{workcate.editTime | YYMMDate}}
+					</div>
+					<div class="works_num text">
+						{{workcate.works.length}}幅
+					</div>
+				</div>
+				<div class="work" ng-repeat="work in workcate.works">
+					<img ng-src="{{work.profile}}" width="100%">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

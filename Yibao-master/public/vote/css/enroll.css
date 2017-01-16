@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Microsoft Yahei";   
+    font-size: 12px;
+    color: #FFF;
+    background-image: #f9f9f9;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+div.content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.separator_line{
+    border-top: 1px solid rgb(136,146,167);
+}
+
+div.usr_info{
+    margin-top: 20px;
+}
+
+span.info{
+    display: inline-block;
+    width: 70px;
+    margin-right: 30px;
+    text-align:justify;
+    text-justify:distribute-all-lines;
+    text-align-last:justify
+}
+
+div.usr_info input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #363636;
+    font-size: 16px;
+    width: 160px;
+}
+
+#grade{
+    color:rgb(243,173,41);
+    display: inline-block;    
+    width: 160px;
+}
+div.usr_info .info_list{
+    font-size: 16px;
+    color: #898989;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.grade{
+    width: 300px;
+    margin: 30px auto;
+}
+.grade_btn{
+    font-size: 20px;
+    color: rgb(71,176,199);
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid rgb(71,176,199);
+    border-radius: 25px;
+}
+
+div.upload_work{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+    margin: 30px auto;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(168,168,168);
+}
+
+div.upload_add{
+    font-size: 36px;
+    border: 2px solid #FFF;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto; 
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+
+.upload_work img{
+    width: 120px;
+    height: 120px;
+}
+
+.upload_add input{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+.action{
+    padding: 10px;
+    height:auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn{
+    position: relative;
+    font-size: 18px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin:auto;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.btn.green{
+    width: 140px;
+    color: rgb(51,255,255);
+    border: 1px solid rgb(51,255,255);
+}
+
+.btn.cancel a{
+    color: rgb(243,173,41);
+}
+
+.btn.yellow{
+    margin-bottom: 20px;
+    border: 1px solid rgb(243,173,41);
+    background: rgb(243,173,41);
+    color:white;
+}
+
+.grade_btn.active{
+    background-color: rgb(71,176,199);
+    color: #FFF;
+}
+
+#subscribe, #share{
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.blue{
+    color: rgb(60,161,186);
+}
+
+.yellow{
+    color: rgb(239,159,33);
+}
+
+.skip{
+    margin: 20px 20px 0 0 ;
+}
+.intro{
+    width: 240px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#arrow{
+    position: absolute;
+    width: 160px;
+    height: 140px;
+    top: 10px;
+    right: 10px;
+}
+
+#share p{
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#dialog{
+    text-align: center;
+    background-color: #FFF;
+    width: 90%;
+    position: absolute;
+    bottom: 15px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: rgb(138,140,146);
+    font-size: 16px;
+    overflow:hidden;
+    z-index :1;
+    border: 1px solid;
+}
+
+/*.active{
+    background-color: rgb(138,140,146);
+}*/
+
+#dialog .select{
+    padding: 8px 0;
+}
+
+.clearfix { 
+  *zoom: 1; 
+} 
+
+.clearfix:before, .clearfix:after { 
+  display: table; 
+  line-height: 0; 
+  content: ""; 
+} 
+
+.clearfix:after { 
+  clear: both; 
+} 
+
+::-webkit-input-placeholder { color:rgb(138,140,146); }
+::-moz-placeholder { color:#f00; } /* firefox 19+ */
+:-ms-input-placeholder { color:#f00; } /* ie */
+input:-moz-placeholder { color:#f00; }

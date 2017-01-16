@@ -1,0 +1,32 @@
+[
+    {
+        "role": "畫室老師",
+        "name": "刘习文",
+        "visitNum": 4875,
+        "district": "北京",
+        "unit": "清美博大",
+        "isIdentited": true,
+        "commentNum": 28,
+        "city": "海淀",
+        "favourNum": 28,
+        "flowersNum": 28,
+        "fansNum": 28,
+        "tags": ["色彩", "设计"],
+        "headimg": "img/logo.png"
+    },
+    {
+        "role": "高三",
+        "name": "慕容復",
+        "visitNum": 1000,
+        "district": "北京",
+        "unit": "中央",
+        "isIdentited": true,
+        "commentNum": 28,
+        "city": "海淀",
+        "favourNum": 28,
+        "flowersNum": 28,
+        "fansNum": 28,
+        "tags": ["色彩", "设计"],
+        "headimg": "img/logo.png"
+    }
+]

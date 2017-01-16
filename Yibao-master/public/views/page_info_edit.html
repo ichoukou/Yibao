@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="stylesheets/page_info_complete.css" type="text/css" media="screen" />
+<div class="page" id="page_info_complete">
+
+
+  <div class="header">
+	<span class="header-left" ng-click ui-sref="base.me">
+	  <i class="fa fa-angle-left"></i>
+	</span>
+	<span class="header-center header-name">完善信息</span>
+  </div>
+	<div class="content">
+		<div class="head_portrait">
+			<div class="info_title">头像</div>
+			<img src="{{user.proUrl}}"></img>
+		</div>
+		<div class="name">
+			<div class="line"></div>
+			<div class="info_title">
+				姓名
+			</div>
+			<div class="info_content">
+				{{user.name}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name">
+			<div class="line"></div>
+			<div class="info_title">
+				认证
+			</div>
+			<div class="info_content">
+				{{user.identited}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name">
+			<div class="line"></div>
+			<div class="info_title">
+				性别
+			</div>
+			<div class="info_content">
+				{{user.gender}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name last">
+			<div class="line"></div>
+			<div class="info_title">
+				身份
+			</div>
+			<div class="info_content">
+				{{user.role}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name">
+			<div class="info_title">
+				手机号
+			</div>
+			<div class="info_content">
+				{{user.telephone}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name last">
+			<div class="line"></div>
+			<div class="info_title">
+				QQ
+			</div>
+			<div class="info_content">
+				{{user.qq}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name">
+			<div class="info_title">
+				所在画室
+			</div>
+			<div class="info_content">
+				{{user.unit}}
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="name last">
+			<div class="line"></div>
+			<div class="info_title">
+				艺考常驻地
+			</div>
+			<div class="info_content">
+				<span>{{user.district}}</span>
+				<span>{{user.city}}</span>
+			</div>
+			<i class="fa fa-angle-right"></i>
+		</div>
+		<div class="exit-login">
+			<span>退出登录</span>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,26 @@
+[
+	{
+		"name":"素描",
+		"isSelected":false
+	},
+	{
+		"name":"色彩",
+		"isSelected":false
+	},
+	{	
+		"name":"速写",
+		"isSelected":false
+	},
+	{
+		"name":"设计",
+		"isSelected":false
+	},
+	{
+		"name":"造型",
+		"isSelected":false
+	},
+	{	
+		"name":"动漫",
+		"isSelected":false
+	}
+]

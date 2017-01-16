@@ -1,0 +1,32 @@
+[
+  {
+    "_id" : "23244777",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "picUrl" : "http://pic.58pic.com/01/16/22/53bOOOPIC8b.jpg",
+    "nickname"  :"Allsa0516",
+    "province" : "山西",
+    "city" : "临汾",
+    "grade" : "高三",
+    "follownum" : 298
+  },
+  {
+    "_id" : "23244776",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "picUrl" : "http://pic.58pic.com/01/16/22/53bOOOPIC8b.jpg",
+    "nickname"  :"Allsa0516",
+    "province" : "山西",
+    "city" : "临汾",
+    "grade" : "高三",
+    "follownum" : 100
+  },
+  {
+    "_id" : "23244775",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "picUrl" : "http://pic.58pic.com/01/16/22/53bOOOPIC8b.jpg",
+    "nickname"  :"Allsa0516",
+    "province" : "山西",
+    "city" : "临汾",
+    "grade" : "高三",
+    "follownum" : 200
+  }
+]

@@ -1,0 +1,710 @@
+#page_feeds_detail
+{
+	background-color:rgb(236,236,236);
+	z-index:2;
+	padding:0;
+	margin:0;
+	font-family: "Microsoft YaHei";
+}
+#img-comment-content
+{
+	position:relative;
+	float:left;
+	height:auto;
+	width:100%;
+	background:white;
+}
+
+#feed-content
+{
+	width:100%;
+	top:37.667px;
+	bottom:0px;
+	position:absolute;
+	overflow-y:auto;
+}
+
+#page_feeds_detail .img-comments
+{
+	position:relative;
+	float:left;
+	background:white;
+	padding-left:4.63%;
+	width:95.37%;
+}
+#page_feeds_detail .header
+{
+	height:37.667px;
+	width:100%;
+	line-height:37.667px;
+	background-color:rgb(247,247,247);
+	border-bottom:1px solid rgb(208,208,208);
+}
+#page_feeds_detail .header span
+{
+	position:relative;
+	float:left;
+	height:34.667px;
+	width:80%;
+	padding-top:3px;
+	font-size:17px;
+	text-align:center;
+}
+#page_feeds_detail .fa-angle-left {
+    position: relative;
+    float: left;
+    height: 32.667px;
+    width: 10%;
+    margin-top: 4px;
+    color: rgb(137,137,137);
+    font-size: 28px;
+}
+
+#page_feeds_detail .header .fa-angle-left:hover,
+#page_feeds_detail .header .fa-angle-left:active
+{
+	color:rgb(255,177,57);
+}
+#page_feeds_detail .teacher-info
+{
+	position:relative;
+	float:left;
+	padding-top:6px;
+	height:40.667px;
+	width:100%;
+	background:white;
+}
+
+#page_feeds_detail .teacher-info .profile img
+{
+	position:relative;
+	float:left;
+	margin-left:4.63%;
+	height:40.667px;
+	width:40.667px;
+	border-radius:50%;
+}
+
+#page_feeds_detail .profile img
+{
+	position:relative;
+	display:block;
+	float:left;
+    width:40.667px;
+    height:40.667px;
+    border-radius:50%;
+}
+
+#page_feeds_detail .img-comment .text
+{
+	min-height:40px;
+	line-height:40px;
+	position:relative;
+}
+
+.teacher-comments-header,.img-comments-header
+{
+	position:relative;
+	float:left;
+	height:22.7px;
+	line-height:22.7px;
+	font-size:15.7px;
+	color:rgb(255,177,57);
+	background:white;
+	width: 100%;
+	text-indent: 4.63%;
+}
+
+#page_feeds_detail .teacher-comments-header
+{
+	margin-top:5.7px;
+	margin-bottom: 3px;
+}
+#page_feeds_detail .img-comments-header
+{
+	margin-top:3.3px;
+	margin-bottom:3px;
+}
+#page_feeds_detail .teacher-comments
+{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom:4px;
+	border-bottom:1px solid rgb(236,236,236);
+	border-top:1px solid rgb(236,236,236);
+}
+#page_feeds_detail .img-comments
+{
+	margin-top:3.3px;
+}
+#page_feeds_detail .teacher-info,#page_feeds_detail .info,#page_feeds_detail .flower
+{
+	height:40px;
+}
+#page_feeds_detail .info
+{
+	position:relative;
+	float:left;
+	width:50%;
+	height:40.667px;
+	margin-left:1%;
+}
+#page_feeds_detail .name
+{
+	font-size:12px;
+	height:20px;
+	color:rgb(54,54,54);
+}
+#page_feeds_detail .info-infor
+{
+	position:relative;
+	top:-5px;
+	font-size:10px;
+	color:rgb(149,149,149);
+}
+#page_feeds_detail .flowernum
+{
+	position:relative;
+	float:left;
+	height:13px;
+	font-size:6.7px;
+	color:rgb(255,145,145);
+}
+#page_feeds_detail .flower
+{
+	position:relative;
+	float:right;
+	width:12%;
+	height:auto;
+	margin-top:8px;
+	
+}
+#page_feeds_detail .label
+{
+	position:relative;
+	float:left;
+	border:0;
+	height:auto;
+	width:83.5%;
+	margin-top:2px;
+	padding-left: 16.45%;
+}
+#page_feeds_detail .contents
+{
+	margin-top:13.7px;
+	padding-bottom:12.3px;
+}
+#page_feeds_detail .answer,#page_feeds_detail .ask
+{
+	margin-top:31px;
+	margin-bottom: 10px;
+	height:auto;
+	position:relative;
+	float:left;
+	width:84.26%;
+}
+#page_feeds_detail .ask
+{
+	min-height:22.7px;
+	position:relative;
+	width:96%;
+	float:left;
+}
+#page_feeds_detail .answer
+{
+	left:15.74%;
+}
+#page_feeds_detail .fa-volume-up
+{
+	font-size:8px;
+	color:#fff;
+	position:relative;
+	left:6px;
+}
+/*#page_feeds_detail .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid rgb(71,176,199);
+    border-bottom: 5px solid transparent;
+	float:left;
+	position:relative;
+	top:2px;
+	border-radius: 2px;
+}
+#page_feeds_detail .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid rgb(215,215,215);
+    border-bottom: 5px solid transparent;
+	float:right;
+	position:relative;
+	top:2px;
+}*/
+#page_feeds_detail .rect-ask,#page_feeds_detail .rect-answer
+{
+    position:relative;
+	min-height:22.7px;
+    border-radius:5px;
+	max-width:60%;
+}
+#page_feeds_detail .rect-answer-text
+{
+	float:left;
+	background-color:rgb(215,215,215);
+	padding:5px 13px 5px 10px;
+	color:rgb(108,108,108);
+	display:inline;
+	font-size:9px;
+}
+#page_feeds_detail .rect-answer
+{
+	width:200px;
+	background-color:rgb(71,176,199);
+	float:left;
+	
+}
+#page_feeds_detail .rect-answer:active
+{
+	background-color:rgb(71,156,199);
+}
+#page_feeds_detail .rect-ask
+{
+	display:inline;
+	background-color:rgb(215,215,215);
+	font-size:9px;
+	color:rgb(108,108,108);
+	padding:5px 13px 5px 10px;
+	float:right;
+}
+#page_feeds_detail .length
+{
+	float:left;
+	position:relative;
+	left:1px;
+	top:4px;
+	font-size:6px;
+	color:rgb(213,213,213);
+}
+#page_feeds_detail .ask-length
+{
+	float:right;
+	position:relative;
+	right:1px;
+	top:4px;
+	font-size:6px;
+	color:rgb(213,213,213);
+}
+#page_feeds_detail .control-ul
+{
+	font-size:10px;
+	list-style-type:none;
+	height:29px;
+	line-height:29px;
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	color:rgb(179,179,179);
+}
+#page_feeds_detail .control-li
+{
+	float:left;
+	width:33.1%;
+	background:white;
+	margin-left:0.35%;
+	margin-right:0.35%;
+}
+#page_feeds_detail .control-li:active
+{
+	background-color:rgb(230,230,230);
+}
+#page_feeds_detail .control-li:first-child,
+#page_feeds_detail .control-li:last-child
+{
+	margin-left:0;
+	margin-right:0;
+}
+
+#page_feeds_detail .img-comment
+{
+	padding:8px 0 5px 0;
+}
+#page_feeds_detail .img-comments-name
+{
+	position:relative;
+	float:left;
+	color:rgb(71,176,199);
+	font-size:11px;
+	padding-left:5px;
+	padding-top:15px;
+}
+#page_feeds_detail .img-comments-info
+{
+	color:rgb(99,99,99);
+	font-size:11px;
+}
+#page_feeds_detail .time,#page_feeds_detail .time-ask,#page_feeds_detail .time-answer
+{
+	color:rgb(157,157,157);
+	font-size:8.7px;
+	float:right;
+	position:absolute;
+	right:4.7%;
+	top:10px;
+}
+#page_feeds_detail .time-answer
+{
+	top:5px;
+}
+#page_feeds_detail .img-comments .time
+{
+	top:15px;
+}
+#page_feeds_detail .ask .rect-ask-voice
+{
+	position:relative;
+	min-height:22.7px;
+    border-radius:2px;
+	max-width:60%;
+	width:200px;
+	background-color:rgb(71,176,199);
+	float:right;
+}
+
+#page_feeds_detail .time-ask
+{
+	float:left;
+	left:17%;
+}
+#page_feeds_detail a
+{
+	text-decoration:none;
+	color:rgb(179,179,179);
+}
+#page_feeds_detail .img-comment
+{
+	padding:8px 0 5px 0;
+}
+#page_feeds_detail .img-comments-info
+{
+	color:rgb(99,99,99);
+	font-size:11px;
+}
+#page_feeds_detail .dialog-contents
+{
+	position:relative;
+	float:left;
+	height:auto;
+	width:100%;
+	background:white;
+}
+#img-comment-content .text
+{
+	position:relative;
+	float:left;
+	padding:5px 5% 5px 60px;
+	margin-bottom: 5px;
+	
+}
+#page_feeds_detail .icon
+{
+	background-image:url(../img/icon.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+#page_feeds_detail .icon-flower
+{
+	position:relative;
+	float:left;
+	width:12.333px;
+	height:11.667px;
+	background-position:-152px -93px;
+	background-size:2000%
+}
+
+#page_feeds_detail .icon-tag
+{
+	width:15px;
+	height:18px;
+	background-size:3550%;
+	background-position:-261px -206px;
+	position:relative;
+	float:left;
+	margin:0;
+}
+#page_feeds_detail .lab
+{
+	height:18px;
+	width:auto;
+	float:left;
+	margin-right:-6px;
+	margin-bottom:8px;
+}
+#page_feeds_detail .fa-caret-left
+{
+	color:rgb(71,176,199);
+	font-size:35.8px;
+	float:left;
+	position: relative;
+	top: -7px;
+}
+#page_feeds_detail .fa-circle
+{
+	position: relative;
+	z-index: 2;
+	right:66px;
+	font-size: 12px;
+	-webkit-transform: scale(0.5);  
+	color: white;
+}
+#page_feeds_detail .rect-tag
+{
+	background-color:rgb(71,176,199);
+	font-size:8px;
+	height:18px;
+	line-height:18px;
+	width:auto;
+	float:left;
+	color:white;
+	padding:2px 5px;
+	position: relative;
+	left:-1px;
+}
+#page_feeds_detail .img-comments .profile
+{
+	position:relative;
+	width:96%;
+	padding-left:4%;
+	float:left;
+}
+
+#page_feeds_detail .icon-xingti,.icon-biaoxian
+{
+	width:48px;
+	height:14.3px;
+	background-size:500%;
+	margin-right:6px;
+}
+#page_feeds_detail .icon-biaoxian
+{
+	background-position:27% 0;
+}
+#page_feeds_detail .card
+{
+	width:100%;
+	margin-bottom: 6.667px;
+	background:rgb(255,255,255);
+}
+#page_feeds_detail .card-content
+{
+	position:relative;
+	top:3px;
+	width:100%;
+	height:auto;
+	background:white;
+	margin-bottom: 6.667px;
+	margin-top:6.333px;
+}
+
+#page_feeds_detail .card-content .information
+{
+	position:relative;
+	width:100%;
+	height:42px;
+	background:rgb(255,255,255);
+}
+
+#page_feeds_detail .card-content .information .head
+{
+	position:relative;
+	float:left;
+	margin-top: 1.333px;
+	margin-left:4%;
+	height:40.667px;
+	width:40.667px;
+	border-radius:50%;
+}
+
+#page_feeds_detail .card-content .information .head img
+{
+	position:relative;
+	margin:auto;
+	width:40.667px;
+	height:40.667px;
+	border-radius:50%;
+}
+
+#page_feeds_detail .card-content .information .data
+{
+	position:relative;
+	float:left;
+	width:60%;
+	height:40.667px;
+	margin-top: 1.333px;
+	margin-left:1%;
+}
+
+#page_feeds_detail .card-content .information .data .upper
+{
+	position: relative;
+	float:left;
+	height:20px;
+	width:100%;
+}
+
+#page_feeds_detail .card-content .data .name,
+#page_feeds_detail .card-content .data .classNo,
+#page_feeds_detail .card-content .data .down,
+#page_feeds_detail .card-content .data .cardtime,
+#page_feeds_detail .card-content .data .province,
+#page_feeds_detail .card-content .data .city 
+{
+	position:relative;
+	float:left;
+}
+
+#page_feeds_detail .card-content .information .data .name
+{
+	top:5px;
+	color:black;
+	font-size:12px;
+}
+
+#page_feeds_detail .card-content .information .data .classNo
+{
+	margin-left:4.333px;
+	color:rgb(149,149,149);
+	font-size:10px;
+	top:6px;
+}
+
+#page_feeds_detail .card-content .information .data .down
+{
+	top:2px;
+	width:100%;
+	height:9px;
+}
+
+#page_feeds_detail .card-content .information .data .cardtime
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	font-family:Helvetica;
+}
+
+#page_feeds_detail .card-content .information .data .province
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	margin-left:7.333px;
+	font-family:Helvetica;
+}
+
+#page_feeds_detail .card-content .information .data .city
+{
+	color:rgb(149,149,149);
+	font-size:9px;
+	margin-left:5px;
+	font-family:Helvetica;
+}
+#page_feeds_detail .card-content .works
+{
+	position: relative;
+	height:auto;
+	margin-top:4.667px;
+	left:4.63%;
+	width:90.74%;
+	height:auto;
+	background:white;
+}
+
+#page_feeds_detail .card-content .works .image
+{
+	min-width:30%; 
+	max-height: 200px;
+}
+
+#page_feeds_detail .card-content .works .image img
+{
+	min-width:30%; 
+	max-height: 200px;
+}
+
+#page_feeds_detail .card-content .works .text
+{
+	position:relative;
+	font-size:12px;
+	margin-top:5px;
+}
+
+#page_feeds_detail .card-content .category
+{
+	padding: 8px 0 8px 15px;
+	width:90.74%;
+	font-size:13px;
+	height:15px;
+	line-height:15px;
+	border-bottom:1px solid rgb(238,238,238);
+	color:rgb(172,138,242); 
+}
+
+#page_feeds_detail .card-content .category i
+{
+	position:relative;
+	float:left;
+	top:2px;
+	font-size:10px;
+	color:rgb(172,138,242);
+}
+
+
+#page_feeds_detail .card-content .comment
+{
+	padding: 0 0 0 15px;
+	width:90.74%;
+	height:30px;
+	line-height:30px;
+	color:rgb(149,149,149);
+	font-size : 0;
+}
+
+#page_feeds_detail .comment> div{
+	display:inline-block;
+	font-size:13px;
+	vertical-align:top
+}
+#page_feeds_detail .comment> div>span{
+	font-size:13px;
+}
+
+#page_feeds_detail .comment .comments
+{
+	width:25%;
+	background:url(../img/comment.png) no-repeat;
+	background-size: 90%;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 15%;
+}
+#page_feeds_detail .comment .pageview,#page_feeds_detail .comment .love,
+#page_feeds_detail .comment .collection
+{
+	width:20%;
+}
+#page_feeds_detail .tag,#page_feeds_detail .fa-tag:before
+{
+	color:rgb(149,149,149);
+}
+#page_feeds_detail .up
+{
+	color: rgb(71,169,199);
+}
+#page_feeds_detail .down
+{
+	color: rgb(149,149,149);
+}

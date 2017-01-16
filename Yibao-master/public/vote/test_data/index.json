@@ -1,0 +1,34 @@
+[
+	{
+		"nickname" : "十倍",
+		"title" : "《我起痘痘了！》",
+		"picUrl" : "img/head.jpg",
+		"num" : 1234,
+		"isVoted" : true,
+		"grade" : "高二"
+	},
+	{
+		"nickname" : "十倍",
+		"title" : "《我又起痘痘了！》",
+		"picUrl" : "img/head.jpg",
+		"num" : 123,
+		"isVoted" : false,
+		"grade" : "高二"
+	},
+	{
+		"nickname" : "十倍",
+		"title" : "《我还起痘痘了！》",
+		"picUrl" : "img/head.jpg",
+		"num" : 1235,
+		"isVoted" : true,
+		"grade" : "高三"
+	},
+	{
+		"nickname" : "十倍",
+		"title" : "《我起痘痘了！》",
+		"picUrl" : "img/head.jpg",
+		"num" : 1237,
+		"isVoted" : false,
+		"grade" : "高三"
+	}
+]

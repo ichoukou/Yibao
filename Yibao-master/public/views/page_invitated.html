@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="stylesheets/page_getComment.css" type="text/css" media="screen" />
+<div id="page_getComment">
+	<div class="main-title">
+		<div class="title_back">
+			<i class="fa fa-angle-left">
+			</i>
+		</div>
+		<div class="title_name">
+			<font>收到评论</font>
+		</div>
+	</div>
+	<div class="main-content">
+	<div class="column" ng-repeat="comment in comments">
+		<div class="head-portrait">
+			<div class="head-img">
+				<img ng-src="{{comment.user.profile}}">
+			</div>
+			<div class="class">
+				LV{{comment.user.rank}}
+			</div>
+			<div class="notice">
+			</div>
+		</div>
+		<div class="info">
+			<div class="info-name">
+				{{comment.user.nickname}}
+			</div>
+			<div class="info-time">
+				{{comment.editTIme | HQDate}}
+			</div>
+		</div>
+		<div class="comment">
+			<div class="text">评论了你的作品</div>
+		</br>
+			<div class="address">
+				<span class="district">
+					{{comment.user.district}}
+				</span>
+				<span class="city">
+					{{comment.user.city}}
+				</span>
+			</div>
+		</div>
+		<img src="" height="47px"/>
+		<div class="comment-text">
+			<i class="triangle-left"/>
+		<span class="content-text">
+			{{comment.text}}
+		</span>
+	</div>
+	</div>
+		</div>
+</div>

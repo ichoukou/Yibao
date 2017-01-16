@@ -1,0 +1,24 @@
+<div class="header">
+  标签编辑
+  <div class="rightbox" ui-sref="^">
+    <span class="fa fa-close"></span>
+  </div>
+</div>
+<div class="content">
+  <div class="editor">
+    <div class="edit-title">
+      标签名&nbsp;<input type="text" class="edit-title-input" placeholder="{{tag.name}}" ng-model="tag.name" />
+      <div class="title-seperator-line"></div>
+      文章标题<input type="text" class="edit-title-input" placeholder="{{post.title}}" ng-model="post.title" />
+      <div class="title-seperator-line"></div>
+      <div class="summernote"></div>
+    </div>
+  </div>
+  <div class="options">
+    <select ng-model="post.category._id">
+        <option ng-repeat="cate in cates" value="{{cate._id}}">{{cate.name}}</option>
+    </select>
+    <div class="right floated small ui button green" ng-click="save()">保存</div>
+  </div>
+
+</div>

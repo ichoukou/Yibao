@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>艺伴</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="/vote/css/enroll.css" type="text/css" />
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="usr_info">
+                <div class="info_list">
+                    <span class="info">真实姓名</span>
+                    <input type="text" id="name" placeholder="(必 填)"></div>
+                <div class="separator_line"></div>
+                <div class="info_list">
+                    <span class="info">手机号</span>
+                    <input type="text" id="phone" placeholder="(务必填对，领奖凭证)"></div>
+                <div class="separator_line"></div>
+                <div class="info_list">
+                    <span class="info">作品名</span>
+                    <input type="text" id="workName" placeholder="(必 填)"></div>        
+                <div class="separator_line"></div>
+                <div class="info_list">
+                    <span class="info">身份</span>
+                    <span id="grade">学生</span>
+                    <!-- <input type="hidden" id="grade" value="高三"> -->
+                </div>        
+                <div class="separator_line"></div>
+            </div>
+            <div id="dialog" class="hidden">
+                    <div class="select" style="font-weight:bold">身份</div>
+                    <div class="separator_line"></div>
+		    <div class="selectbox" id="grade1">
+			    <div class="select"><span class="yellow">老师</span></div>
+                    </div>
+                <div class="separator_line"></div>
+                <div class="selectbox" id="grade2">
+                    <div class="select"><span class="yellow">学生</span></div>
+                </div>
+		<div class="separator_line"></div>
+		<div class="selectbox" id="grade3">
+			<div class="select"><span class="yellow">高三应届生</span></div>
+                </div>
+
+
+            </div>
+       <!--  <div class="grade clearfix">
+            <input type="hidden" value="高二" id="grade">
+            <div class="grade_btn left active" id="grade2">高二</div>
+            <div class="grade_btn right" id="grade3">高三</div>
+        </div> -->
+            <div class="upload_work" id="upload_work">
+                    <div class="upload_add" onclick="onFileUpload()"> + 
+			    <!-- <input type="file" id="work" onchange="readAsDataURL('work','upload_work')"> -->
+                </div>
+                <div>上传作品</div>
+            </div> 
+            <div class="action">
+                <div class="btn yellow" onclick="submit()">提交</div>
+                <div class="btn cancel"><a href="javascript:history.go(-1)">取消</a></div>
+            </div>
+        </div>
+        <div id="subscribe" class="hidden">
+            <div class="skip clearfix"><span class="right">跳过</span></div>
+            <!-- <p class="intro">恭喜你获得“<span class="blue">艺伴</span>“APP<span class="yellow">会员体验资格</span>，分享此特权给三位好友，和伙伴们一起体验！据说，考上<span class="yellow">美院</span>的<span class="yellow">学生和家长</span>都在用<span class="blue">艺伴APP</span>，你还在等什么？
+             </p> -->
+             <p class="intro">作品发布成功啦！长按二维码关注艺伴订阅号， 获奖的<span class="blue">名单</span>将在这里公布。欢迎来到<span class="yellow">艺伴</span>的大家庭。
+             </p>
+
+	     <p style="text-align:center">
+		     <img src="/img/qrcode.jpg" alt="" style="width: 60%;"/>
+	     </p>
+             <!-- <div class="btn green center">立即下载</div> -->
+        </div>
+
+        <div id="share" class="hidden">
+            <img src="/vote/img/arrow.png" id="arrow">
+            <p>现在就去分享链接拉票吧</p>
+        </div>
+
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+        <script src="/vote/js/jquery-1.11.3.min.js"></script>
+        <script src="/vote/js/enroll.js"></script>
+    </body>
+
+</html>

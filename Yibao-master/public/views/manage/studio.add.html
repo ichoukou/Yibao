@@ -1,0 +1,80 @@
+<div class="header" style="font-size:22px">
+    编辑画室
+    <div class="rightbox" ui-sref="^">
+        <span class="fa fa-close"></span>
+    </div>
+</div>
+<div class="content" >
+	<div class="editor"  style="overflow:auto">
+        <div class="edit-content">
+            <form role="form" style="margin-left: 20px">
+                <div class="form-group">
+                    <label for="name">画室名称</label>
+                    <input type="text" class="form-control" id="name"
+                            ng-model="name" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="phone">画室电话</label>
+                    <input type="text" class="form-control" id="phone" ng-model="phone" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="address">画室地址</label>
+                    <input type="text" class="form-control" id="address" ng-model="address" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="website">画室网址</label>
+                    <input type="text" class="form-control" id="website" ng-model="website" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="email">画室邮箱</label>
+                    <input type="text" class="form-control" id="email" ng-model="email" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="feature">画室特色</label>
+                    <input type="text" class="form-control" id="feature" ng-model="feature" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="responsible">负责人</label>
+                    <input type="text" class="form-control" id="responsible" ng-model="responsible" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="resphone">负责人电话</label>
+                    <input type="text" class="form-control" id="resphone" ng-model="resphone" style="width: 50%">
+                </div>
+                <div class="form-group">
+                    <label for="photo">头像URL</label>
+                    <input type="text" class="form-control" id="photo" ng-model="photo" style="width:80%">
+                </div>
+                <div class="form-group">
+                    <label for="environment">教学环境</label>
+                    <input type="text" class="form-control" id="environment" ng-model="environment" style="width:80%">
+                </div>
+                <!--<div class="form-group">-->
+                    <!--<label>开设课程</label>-->
+                    <!--<input type="text" class="form-control"  ng-model="cname" style="width:80%" placeholder="课程名">-->
+                    <!--<input type="text" class="form-control"  ng-model="csize" style="width:80%" placeholder="班级人数">-->
+                    <!--<input type="text" class="form-control"  ng-model="ctime" style="width:80%" placeholder="学习时间">-->
+                    <!--<input type="text" class="form-control"  ng-model="cset_for" style="width:80%" placeholder="招生对象">-->
+                    <!--<input type="text" class="form-control"  ng-model="cprice" style="width:80%" placeholder="收费标准">-->
+                    <!--<input type="text" class="form-control"  ng-model="cprofile" style="width:80%" placeholder="课程简介">-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label>师资队伍</label>-->
+                    <!--<input type="text" class="form-control"  ng-model="tname" style="width:80%" placeholder="姓名">-->
+                    <!--<input type="text" class="form-control"  ng-model="tduty" style="width:80%" placeholder="职务">-->
+                    <!--<input type="text" class="form-control"  ng-model="taddress" style="width:80%" placeholder="地址">-->
+                    <!--<input type="text" class="form-control"  ng-model="tphone" style="width:80%" placeholder="电话">-->
+                    <!--<input type="text" class="form-control"  ng-model="tphoto" style="width:80%" placeholder="头像">-->
+                <!--</div>-->
+                <div class="form-group">
+                    <label for="chengguo">教学成果</label>
+                    <textarea type="text" class="form-control" id="chengguo" ng-model="chengguo" style="height:100px;width: 80%"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="options">
+        <div class="right floated small ui button green" ng-click="add()">保存</div>
+    </div>
+
+</div>

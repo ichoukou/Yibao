@@ -1,0 +1,44 @@
+<div id="post">
+  <div class="content">
+    <article id="mainContent"></article>
+  </div>
+  <div class="relative" onClick="goRelatives()">
+	  <p>相关</p><p>教程</p>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+
+function $(id) {
+    return document.getElementById(id);
+}
+
+
+var content = '{{post.content}}';
+
+var tagid = "{{tagid}}";
+
+$('mainContent').innerHTML = html_decode(content);
+
+function html_decode(str)
+{
+    var s = "";
+    if (str.length == 0) return "";
+    s = str.replace(/&gt;/g, ">");
+    s = s.replace(/&lt;/g, "<");
+    s = s.replace(/$amp;/g, "&"); 
+    s = s.replace(/&nbsp;/g, " ");
+    s = s.replace(/&#39;/g, "\'");
+    s = s.replace(/&quot;/g, "\"");
+    s = s.replace(/<br>/g, "\n");
+    s = s.replace(/&#x3D;/g, "=")   //迫不得已的方法
+        return s;
+}
+function goRelatives() {
+	console.log('goRelative');
+        location.href="/articlesById/"+tagid;
+}
+
+</script>
+

@@ -1,0 +1,24 @@
+<div class="content-title">
+    <span>关系绑定</span>
+</div>
+<div class="content-body">
+    <table class="text-align-left-th">
+        <thead>
+        <tr>
+            <th width="20%">父分类</th>
+            <th width="20%">子分类</th>
+            <th width="20%">关系</th>
+            <th width="20%">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <td><input type="text" ng-model="parentCategory"></td>
+        <td><input type="text" ng-model="subCategory"></td>
+        <td>{{isparent?'父子':''}}</td>
+        <td><div class="left floated small ui button green" ng-click="remove()">清空</div>
+            <div class="left floated small ui button green" ng-click="query()">查询</div>
+            <div class="left floated small ui button green" ng-click="bind()">绑定</div>
+            <div class="left floated small ui button green" ng-click="cancel()">撤销</div></td>
+        </tbody>
+    </table>
+</div>

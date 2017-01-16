@@ -1,0 +1,152 @@
+#page_feeds_init
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:2;
+	padding:0;
+	margin:0;
+	font-family: "Microsoft YaHei";
+	color:rgb(161,161,161);
+}
+.title
+{
+	width:100%;
+	height:38.667px;
+	background:rgb(255,255,255);
+	margin-bottom: 2.7px;
+	-webkit-box-shadow:0 1.7px 1px #b7b7b7;  
+ 	-moz-box-shadow:0 1.7px 1px #b7b7b7;  
+    box-shadow:0 1.7px 1px #b7b7b7; 
+}
+.title .left
+{
+	float: left;
+	width:50%;
+	height:38.667px;
+	background:rgb(247,247,247);
+}
+.title .rectround-left
+{
+	position:relative;
+	float:right;
+	top:8.333px;
+	width:46%;
+	height:18.667px;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	background:rgb(71,176,199);
+	border:2px solid rgb(71,176,199);
+	border-right:0px;
+	color:white;
+	font-size:13.333px;
+    text-align: center;
+	padding-top:3.333px;
+}
+.title .right
+{
+	float:left;
+	width:50%;
+	height:38.667px;
+	background:rgb(247,247,247);
+}
+.title .rectround-right
+{
+	position:relative;
+	float:left;
+	top:8.333px;
+	width:46%;
+	height:18.667px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border:2px solid rgb(71,176,199);
+	border-left:0px;
+	background:rgb(247,247,247);
+	font-size: 13.333px;
+	color:rgb(71,176,199);
+    text-align: center;
+	padding-top:3.333px;
+}
+.tab
+{
+	width:100%;
+	height:30px;
+	background:white;
+	border-bottom: 1px solid rgb(223,223,233);
+}
+.tab .focused
+{
+	border-bottom: 2px solid rgb(71,176,199);
+	color:rgb(71,176,199);
+}
+.tab .unfocused
+{
+	color:rgb(172,172,172);
+	border-bottom: 0px solid rgb(71,176,199);
+}
+#tab-all
+{
+	float:left;
+	width:33.33%;
+	height:22px;
+	font-size:13.333px;
+	text-align:center;
+	padding-top: 6.667px;
+}
+#tab-comment
+{
+	float:left;
+	width:33.33%;
+	height:22px;
+	font-size:13.333px;
+	text-align:center;
+	padding-top: 6.667px;
+}
+#tab-state
+{
+	float:left;
+	width:33.33%;
+	height:22px;
+	font-size:13.333px;
+	text-align:center;
+	padding-top: 6.667px;
+}
+.icon
+{
+	background-image: url(../img/ICON.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.icon-yibao-init
+{
+	height: 200px;
+	width: 122.7px;
+	display: block;
+	margin:auto;
+	margin-top: 40px;
+	background-size: 1650%;
+    background-position:-1270px -148px;
+}
+.attention
+{
+	height: 25.7px;
+	line-height: 25.7px;
+	width: 64.7px;
+	border-radius:2px;
+	font-size: 14px;
+	color:white;
+	background-color: rgb(71,176,199);
+	text-align: center;
+	margin:auto;
+	margin-top: 22.7px;
+}
+.attention-words
+{
+	font-size: 14.7px;
+	color:rgb(149,149,149);
+	text-align: center;
+	margin-top: 7px;
+}

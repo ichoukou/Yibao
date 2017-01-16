@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container{ width:40%; alignment-adjust:central;}
+    </style>
+
+</head>
+<body ng-controller="bodyCtrl">
+
+<div class="container">
+
+    <form class="form-signin" name="loginForm" role="form"   novalidate>
+        <h2 class="form-signin-heading" style="text-align: center;font-family: Helvetica Neue;font-size: 20px" >管理员登录</h2>
+        <input type="text" class="form-control" placeholder="Email address" id="user" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" id="psw"  required>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住我
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" ng-click="validation()">登录</button>
+        <!--<div style="text-align: center;font-size: 14px;color: #0000FF" ><br><br><br><br>圣显教育科技有限公司出品<br>版权所有@  翻版必究</div>-->
+    </form>
+
+</div> <!-- /container -->
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://apps.bdimg.com/libs/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>

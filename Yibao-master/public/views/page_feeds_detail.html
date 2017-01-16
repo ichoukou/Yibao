@@ -1,0 +1,123 @@
+
+<div class="page" id="page_feeds_detail">
+	<div class="header">
+		<i class="fa fa-angle-left" ui-sref="^" ng-click></i><span>详情</span>
+	</div>
+	<div id="feed-content">
+		<div class="loading" ng-if="isLoading">
+			内容加载中 ...
+		</div>
+		<div class="card-content" id="card-content" ng-if="!isLoading">
+			<div class="detail_content">
+				<div class="card">
+					<div class="information">
+						<div class="head"><img ng-src="{{feed.owner.profile}}"/></div>
+						<div class="data">
+							<div class="upper">
+								<div class="name">{{feed.owner.nickname}}</div>
+								<div class="classNo">（{{feed.owner.grade}}）</div>
+							</div>
+							<div class="down">
+								<div class="cardtime">{{feed.editTime | HQDate}}</div>
+								<div class="province">{{feed.owner.district}}</div>
+								<div class="city">{{feed.owner.city}}</div>
+							</div>
+						</div>
+					</div>
+					<div class="works">
+						<div class="image"><img ng-src="{{feed.picUrl}}" /></div>
+						<div class="text">{{feed.content}}</div>
+					</div>
+					<div class="category">
+					  <i class="fa fa-tag"></i>
+						<div class="tag">{{feed.tags | arrayConcat}}</div>
+					</div>
+					<div class="line">
+					</div>
+					<div class="comment">
+						<div class="pageview">
+						  <i class="fa fa-eye"></i>
+							<span class="text">{{feed.viewNum}}</span>
+						</div>						
+						<div class="love">
+						  <i class="fa fa-thumbs-o-up" ng-class="feed.isFavour ? 'up' : 'down'" ng-click="favour()"></i>
+						  <span class="text">{{feed.favourNum}}</span>
+						</div>
+						<div class="collection">
+						  <i class="fa fa-star" ng-class="feed.isKudo ? 'up' : 'down'"></i>
+						  <span class="text">{{feed.kudoNum}}</span>
+						</div>
+						<div class="comments" ng-click="viewComment(feed._id)">
+						  <i class="icon-comment"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div>
+		<div class="teacher-comments-header" ng-if="comments.length">
+		  <span class="teacher-num">名师点评({{comments.length}})</span>
+	    </div>
+		<div id="feed-contents">
+		  <div class="feed">
+			<div class="teacher-comments" ng-repeat="comment in comments">
+			  <div class="teacher-info">
+				<div class="profile">
+				  <img ng-src="{{comment.owner.profile}}"/>
+				</div>
+				<div class="info">
+				  <span class="name">{{comment.owner.nickname}}</span><br/>
+				  <span class="info-infor">{{comment.owner.district}}&nbsp;{{comment.owner.city}}&nbsp;{{comment.owner.organization}}</span>
+				</div>
+				<div class="flower">
+				  <i class="icon icon-flower"></i>
+				  <span class="flowernum">{{comment.owner.flowerNum}}</span>
+				</div>
+			  </div>
+			  <div class="label">
+				<div class="lab" ng-repeat="tag in comment.tags">
+				  <div class="fa fa-caret-left"></div>
+				  <div class="fa fa-circle"></div>
+				  <div class="rect-tag">{{tag.tagName}}</div>
+				</div>
+			  </div>
+			  
+			  <div class="dialog-contents">
+				<div ng-class="content.isAsker?'ask':'answer'" ng-repeat="content in comment.contents">
+				  <div class="rect-ask" ng-if="content.isAsker&&content.type=='text'">
+					{{content.content}}
+				  </div>
+				  <div class="time-ask" ng-if="content.isAsker">{{content.createTime | HQDate}}
+				  </div>
+				  <div class="rect-answer" ng-if="(!content.isAsker)&&content.type=='voice'"
+					   ng-style="{'width':(content.length>20000?200:content.length/100) +'px'}"></div>
+				  <div class="time-answer" ng-if="!content.isAsker">{{content.createTime | HQDate}}</div>
+				  <span class="length" ng-if="(!content.isAsker)&&content.type=='voice'">
+					{{content.length/1000}}&quot;
+				  </span>
+			  </div>
+			  <ul class="control-ul">
+				<li class="control-li">追问</li>
+				<li class="control-li">+关注</li>
+				<li class="control-li">献花</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		 <div class="img-comments-header" ng-if="reviews.length">
+		   画作评论({{reviews.length}})
+	     </div>
+		 <div id="img-comment-content">
+		   <div class="feed" ng-repeat="review in reviews">
+		 	<div class="img-comments profile">
+		 	  <img ng-src="{{review.profile}}"/>
+		 	  <span class="img-comments-name">{{review.nickname}}:</span>
+		 	  <span class="time">{{review.createTime | HQDate}}</span>
+		 	</div>
+			<div class="text">
+			  <span class="img-comments-info">{{review.review}}</span>
+		 	</div>  
+		   </div> 
+		 </div> 
+		</div>
+	</div>
+</div>

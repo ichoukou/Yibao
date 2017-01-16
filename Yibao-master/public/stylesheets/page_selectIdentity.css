@@ -1,0 +1,156 @@
+#page_selectIdentity
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:2;
+	padding:0;
+	margin:0;
+	font-family: Microsoft YaHei;
+	color:rgb(161,161,161);
+}
+.main-title
+{
+	width:100%;
+	height:38px;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #b7b7b7;  
+ 	-moz-box-shadow:0 1px 2px #b7b7b7;  
+    box-shadow:0 1px 2px #b7b7b7; 
+}
+.title_back
+{
+	position:relative;
+	float:left;
+	width: 20%;
+}
+
+.title_name
+{
+	position:relative;
+	float:left;
+	width: 60%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17.333px;
+	color:black;
+}
+.fa-angle-left
+{
+	margin-left:14.667px;
+	margin-top:5px;
+	color:rgb(137,137,137);
+	font-size: 26px;
+}
+.fa-angle-left:active
+{
+	color:rgb(255,177,57);
+}
+.finish
+{
+	position:relative;
+	float:left;
+	width: 20%;
+	height:29px;
+	margin-top:6px;
+	text-align: center;
+	font-size: 17px;
+	color:rgb(71,169,199);
+}
+.varitied
+{
+	position: relative;
+	float:left;
+	width:100%;
+	height:74px;
+	background: white;
+}
+.contain
+{
+	position: relative;
+	float: left;
+	width: 25%;
+	height:74px;
+}
+.view
+{
+	position: relative;
+	margin: auto;
+	margin-top:11px;
+	height: 53px;
+	width:53px;
+	background: url(../img/icon.png) no-repeat;
+	background-size: 454px 827px;
+}
+.student
+{
+    background-position:-192px -94px;
+}
+.teacher
+{
+    background-position:-120px -95px;
+}
+.studio
+{
+    background-position:-265px -94px;
+}
+.other
+{
+    background-position:-341px -94px;
+}
+.directive
+{
+	width: 25%;
+	height: 32px;
+	text-align: center;
+	background: transparent;
+}
+.directive i
+{
+	position: relative;
+	font-size: 26px;
+	color:white;
+	top: -9px;
+}
+.column
+{
+	position: relative;
+	float: left;
+	margin-top: 32px;
+	height:36px;
+	width:100%;
+}
+.grade
+{
+	position: relative;
+	background: white;
+	height: 35px;
+	width: 85px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	color:rgb(242,85,96);
+}
+.ing
+{
+	float:left;
+	left: 27px;
+}
+.next
+{
+	margin:auto;
+}
+.ed
+{
+	float: right;
+	right: 27px;
+	top:-35px;
+}
+.selected
+{
+	border:1px;
+}

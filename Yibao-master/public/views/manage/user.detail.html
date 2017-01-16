@@ -1,0 +1,34 @@
+<div class="header">
+  用户详情
+  <div class="rightbox" ui-sref="^">
+	<span class="fa fa-close"></span>
+  </div>
+</div>
+<div class="panel panel-default content">
+
+    <!-- List group -->
+    <ul class="list-group">
+        <li class="list-group-item">生日：{{user_detail.birthday|date : "yyyy-MM-dd "}}</li>
+        <li class="list-group-item">状态：{{user_detail.status}}</li>
+        <li class="list-group-item">QQ：{{user_detail.QQ}}</li>
+        <li class="list-group-item">简介：{{user_detail.profile}}</li>
+        <li class="list-group-item">头像：<img src="{{user_detail.photo}}"></li>
+        <li class="list-group-item">签名：{{user_detail.sign}}</li>
+        <li class="list-group-item">排名：{{user_detail.rank}}</li>
+        <li class="list-group-item">关注数：{{user_detail.followNum}}</li>
+        <li class="list-group-item">创建时间：{{user_detail.createTime | date : "yyyy-MM-dd " }}</li>
+        <li class="list-group-item">编辑时间：{{user_detail.editTime | date : "yyyy-MM-dd "}}</li>
+        <li class="list-group-item">等级：{{user_detail.degree}}</li>
+        <li class="list-group-item">身份：{{user_detail.identify}}</li>
+        <li class="list-group-item">毕业院校：{{user_detail.graduate_school}}</li>
+        <li class="list-group-item">教学经验：{{user_detail.experience}}</li>
+        <li class="list-group-item">教学对象：{{user_detail.teaching_object}}</li>
+        <li class="list-group-item">常驻地址：{{user_detail.address_often}}</li>
+        <li class="list-group-item" ng-repeat="tag in user_detail.tags">标签：{{tag.name}}</li>
+        <li class="list-group-item">画室老师简介：{{user_detail.teacher_profile}}</li>
+        <li class="list-group-item">报名数：{{user_detail.sign_upNum}}</li>
+        <li class="list-group-item">负责人：{{user_detail.responsible_person.name+""+user_detail.responsible_person.contact}}</li>
+        <li class="list-group-item">email：{{user_detail.email}}</li>
+        <li class="list-group-item">网址：{{user_detail.website}}</li>
+        <li class="list-group-item">画室特点：{{user_detail.feature}}</li>
+</div>

@@ -1,0 +1,28 @@
+<div id="post" class="page">
+    <!--<div class="title" style="text-align: center">{{tag}}</div>-->
+    <ul class="list-group">
+        {{#each posts}}
+        <li class="list-group-item" onclick="view('{{this._id}}')" style="margin-left: -35px;margin-top:5px;border-bottom:1px solid #ccc;">
+            <div style="height: 60px">
+                <div><img src="{{this.thumbUrl}}" style="height: 55px;width:55px;float: left"> </div>
+                <div class="title  ellipsis" style="font-size: 18px;float: left;margin-left: 10px">{{this.title}}</div>
+                <div class="clearfix" style="float: left;margin-left: 10px;font-size: 14px">
+                    <span class="category"><i class="fa fa-tag"></i>{{this.category.name}}</span>
+                    <span class="time">{{format this.createTime}}</span>
+
+                </div>
+            </div>
+
+        </li>
+        {{/each}}
+    </ul>
+</div>
+<style>
+    li {list-style-type:none;}
+    .ellipsis{ width:200px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+</style>
+<script>
+    var view = function(id){
+            location.href = "/article/" + id;
+    };
+</script>

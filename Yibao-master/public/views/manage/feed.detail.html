@@ -1,0 +1,24 @@
+<div class="header">
+    动态详情
+    <div class="rightbox" ui-sref="^">
+        <span class="fa fa-close"></span>
+    </div>
+</div>
+<div class="panel panel-default content">
+
+    <!-- List group -->
+    <ul class="list-group">
+        <li class="list-group-item"><img src="{{feed_detail.picUrl}}" style="max-height: 100px"></li>
+        <li class="list-group-item">内容：{{feed_detail.content}}</li>
+        <li class="list-group-item">点赞数：{{feed_detail.kudoNum}}</li>
+        <li class="list-group-item">收藏数：{{feed_detail.favourNum}}</li>
+        <li class="list-group-item">评论数：{{feed_detail.commentNum}}</li>
+        <li class="list-group-item">浏览数：{{feed_detail.viewNum}}</li>
+        <li class="list-group-item" ng-repeat="tag in feed_detail.tags">tags：{{tag.name}}</li>
+        <li class="list-group-item">创建时间：{{feed_detail.createTime |date : "yyyy-MM-dd "}}</li>
+        <li class="list-group-item">编辑时间：{{feed_detail.editTime|date : "yyyy-MM-dd "}}</li>
+        <li class="list-group-item">发布者姓名：{{feed_detail.owner.nickname}}</li>
+        <li class="list-group-item">发布者地区：{{feed_detail.owner.address}}</li>
+        <li class="list-group-item">发布者城市：{{feed_detail.owner.city}}</li>
+    </ul>
+</div>

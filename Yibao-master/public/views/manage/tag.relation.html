@@ -1,0 +1,24 @@
+<div class="content-title">
+    <span>关系绑定</span>
+</div>
+<div class="content-body">
+    <table class="text-align-left-th">
+        <thead>
+        <tr>
+            <th width="20%">父标签</th>
+            <th width="20%">子标签</th>
+            <th width="20%">关系</th>
+            <th width="20%">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+            <td ng-model="parent" contenteditable></td>
+            <td ng-model="child" contenteditable></td>
+            <td>{{relationship}}</td>
+            <td><div class="right floated small ui button green" ng-click="bind()">绑定</div>
+                <div class="right floated small ui button green" ng-click="query()">查询</div>
+                <div class="right floated small ui button green" ng-click="clear()">清空</div></td>
+        </tbody>
+    </table>
+</div>
+

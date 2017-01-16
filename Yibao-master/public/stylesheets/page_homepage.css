@@ -1,0 +1,487 @@
+#page_homepage
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:0;
+	font-family: "Microsoft YaHei";
+}
+#page_homepage .card-image
+{
+    position:fixed;
+    float:left;
+    width:100%;
+    height:220px;
+    z-index: 1;
+    background-size:100%;
+    -webkit-filter:blur(60px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);    
+    filter: blur(10px);
+}
+#page_homepage .card-gray
+{
+    position:fixed;
+    width:100%;
+    height:220px;
+    z-index: 2;
+    background:black;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#00aa33), to(#003300));
+    opacity: 0.15;
+}
+#page_homepage .card
+{
+    position:fixed;
+    float:left;
+    width:100%;
+    height:220px;
+    z-index: 3;
+}
+#page_homepage .card .Title
+{
+    position:relative;
+    width:10%;
+    height:38px;
+}
+#page_homepage .card i{
+    position: relative;
+    float:left;
+    margin-left: 14.667px;
+    margin-top: 6px;
+    font-size: 26px;
+    color: white;
+}
+#page_homepage .card .head
+{
+    position: relative;
+    height: 72px;
+    width: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:9px;
+}
+#page_homepage .card .head .headPortrait
+{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-repeat: none;
+    background-size: 100%;
+    border-radius: 35px;
+}
+#page_homepage .card .head .v
+{
+    position: absolute;
+    z-index: 3;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    right:3px;
+    bottom:3px;
+    background:url(../img/icon.png)no-repeat;
+    background-size: 454px 827px;
+    background-position:-274px -227px;
+}
+#page_homepage .card .identity{
+    height:16px;
+    width:39px;
+    line-height: 15px;
+    margin-top:4px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background:rgb(255,177,57);
+    border-radius: 3px;
+    color:white;
+    font-size: 12px;
+}
+#page_homepage .card .info
+{
+    position: relative;
+    width:100%;
+    height: 35px;
+    color:white;
+}
+#page_homepage .card .info .name
+{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+}
+#page_homepage .card .info .class
+{
+    position:relative;
+    float:left;
+    font-size: 12px;
+}
+#page_homepage .card .info .visit{
+    position:relative;
+    float:left;
+    margin-left: 3px;
+    font-size:12px;
+}
+#page_homepage .card .info .address{
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+    text-align: center;
+    font-size: 12px;
+}
+#page_homepage .card .tab{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    margin-top:6px;
+    height:30px;
+    color:white;
+}
+#page_homepage .card .tab .comment,
+#page_homepage .card .tab .fans,
+#page_homepage .card .tab .flowers,
+#page_homepage .card .tab .favour{
+    position: relative;
+    float:left;
+    width:24.5%;
+    height:30px;
+    border-right: 1px solid white;
+}
+#page_homepage .card .tab .favour{
+     border-right: 0px;
+}
+#page_homepage .card  .min-tab
+{
+    position: relative;
+    float:left;
+    width:33.1%;
+    height:30px;
+    border-right: 1px solid white;
+}
+#page_homepage .card  .fan
+{
+    border-right: 0px solid white;
+}
+#page_homepage .card  .text
+{
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;  
+}
+#page_homepage .card .min-tab 
+#page_homepage .card .tab .favour{
+    border-right: 0px solid white;
+}
+#page_homepage .card .num{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+#page_homepage .card  .rank
+{
+    position: absolute;
+    bottom:0;
+    right:0;
+    height:8px;
+    width:16px;
+    border-radius:3px;
+    background:rgb(255,177,60);
+    text-align: center;
+    color:white;
+    font-size: 6px;
+    line-height: 7px;
+}
+#page_homepage .display
+{
+	position: absolute;
+	float:left;
+	top:220px;
+    bottom:0;
+    z-index: 5;
+	height:auto;
+    overflow-y: auto;
+    background:rgb(236,236,236);
+	width: 100%;
+}
+#page_homepage .work-display
+{
+    position: relative;
+    float: left;
+    height: auto;
+    width: 100%;
+    background:white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 6px; 
+}
+#page_homepage .title
+{
+    position: relative;
+    float: left;
+    height: auto;
+    width:100%;
+}
+#page_homepage .icon
+{
+    position: relative;
+    float: left;
+    margin-left: 7px;
+    width: 22px;
+    height:22px;
+    background:url(../img/icon.png) no-repeat;
+    background-size: 227px 413px;
+}
+#page_homepage .photo
+{
+    background-position: -145px -5px;
+}
+#page_homepage .title span
+{
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+}
+#page_homepage .title .left
+{
+    float: left;
+    margin-left: 3px;
+    color:rgb(149,149,149);
+}
+#page_homepage .title .right
+{
+    float: right;
+    margin-right: 20px;
+    color:rgb(71,176,199);
+}
+#page_homepage .work-content-teacher,
+#page_homepage .work-content
+{
+    position: relative;
+    height:auto;
+    width:97%;
+    margin:auto;
+}
+#page_homepage .work-content img
+{
+    position: relative;
+    float: left;
+    width:18%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#page_homepage .list
+{
+    background-position: -169px -5px;
+}
+#page_homepage .work-display .info
+{
+    width:85%;
+}
+#page_homepage .column
+{
+    position: relative;
+    float: left;
+    width:100%;
+    text-indent: -10px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(208,208,208);
+}
+#page_homepage .column-title
+{
+    position: relative;
+    float: left;
+    font-size: 14px;
+    color:rgb(149,149,149);
+}
+#page_homepage .column-content
+{
+    position: relative;
+    float: left;
+    padding:0;
+    margin:0;
+    width:70%;
+    line-height: 32px;
+    outline: none;
+    z-index: 8;
+    border:none;
+    font-family: "Microsoft YaHei";
+    text-indent: 8px;
+    font-size: 14px;
+    color:rgb(54,54,54);
+}
+#page_homepage .speciality
+{
+    background-position:-124px -5px;
+}
+#page_homepage .tags
+{
+    position: relative;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+#page_homepage .tag-rect
+{
+    position: relative;
+    float: left;
+    width:74px;
+    height:24px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#page_homepage .tag
+{
+    position: relative;
+    float: left;
+    width:70px;
+    height:20px;
+    background: rgb(71,176,199);
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    border-radius:2px;
+}
+#page_homepage .tags span
+{
+    position: absolute;
+    bottom:0;
+    right:0;
+    font-size: 9px;
+    color:rgb(149,149,149);
+}
+#page_homepage .tags .selected
+{
+    color: rgb(255,60,80);
+}
+#page_homepage .tags .noselected
+{
+    color: rgb(149,149,149);
+}
+#page_homepage .tags .fa-check
+{
+    color: white;
+}
+#page_homepage .studio .catalogue
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height:70px;
+    margin-top: 10px;
+    background:white;
+}
+#page_homepage .studio .horizontal
+{
+    position: relative;
+    float: left;
+    padding-top:12px;
+    text-align: center;
+    width: 33.33%;
+    height: 100%;
+}
+#page_homepage .studio .right
+{
+    float:right;
+}
+#page_homepage .studio .image{
+    position: relative;
+    margin:auto;
+    width:46px;
+    height:46px;
+    background:url(../img/icon.png);
+    background-size: 454px 827px;
+}
+#page_homepage .studio .studio-brief
+{
+    background-position: -162px -158px;
+}
+#page_homepage .studio .environment
+{
+    background-position: -21px -158px;
+}
+#page_homepage .studio .progress
+{
+    background-position: -90px -158px;
+}
+#page_homepage .studio .teacher-info
+{
+    position: relative;
+    float: left;
+    text-align: center;
+    height: 70px;
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#page_homepage .studio .teacher-info img{
+    position: relative;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin:auto;
+} 
+#page_homepage .studio .teacher-info .name
+{
+    position: relative;
+    float:left;
+    width: 100%;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color:rgb(37,37,37);
+}
+.works_card
+{
+    position: relative;
+    float:left;
+    height: auto;
+    width: 100%;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+    background:white;
+}
+.card-content
+{
+    position: relative;
+    height: auto;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.works_info
+{
+    position: relative;
+    float:left;
+    height:30px;
+    width:100%;
+}
+.works_info .text
+{
+    position: relative;
+    font-size: 14px;
+    line-height: 30px;
+}
+.works_info .works_time
+{
+    float:left;
+    left:1px;
+}
+.works_info .works_num
+{
+    float:right;
+    right:1px;
+}
+.work
+{
+    position: relative;
+    float: left;
+    width:32%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}

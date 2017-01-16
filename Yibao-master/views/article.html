@@ -1,0 +1,64 @@
+<div id="post">
+  <header>
+    <div class="title">
+      {{post.title}}
+    </div>
+      <div class="clearfix">
+        <span class="time">{{createTime}}</span>&nbsp;&nbsp;
+        <span class="category"><i class="fa fa-tag"></i>{{post.category.name}}</span>
+      </div>
+      <div id="taglist"></div>
+
+  </header>
+  <div class="content">
+    <article id="mainContent"></article>
+  </div>
+  <footer>
+    <span>阅读量 {{post.viewNum}}</span>&nbsp;&nbsp;
+    <span><i class="fa fa-thumbs-o-up"></i>
+      {{post.likeNum}}
+    </span>
+  </footer</div>
+
+
+<script type="text/javascript">
+
+function $(id) {
+    return document.getElementById(id);
+}
+
+var content = '{{breaklines post.content}}';
+$('mainContent').innerHTML = html_decode(content);
+if('{{tags}}' != ""){
+  var tags = '{{tags}}'.split(',');
+  $('taglist').innerHTML += showTag(tags);  
+}
+
+function showTag(tags){
+  var str = "";
+  for(var i in tags){
+		str += '<span class="tag" onclick="getPostsByTag(\''+tags[i]+'\')">' + tags[i] + '</span>';
+    // console.log(str);
+  }
+    return str;
+}
+
+function html_decode(str)
+{
+	var s = "";
+	if (str.length == 0) return "";
+	s = str.replace(/&gt;/g, ">");
+	s = s.replace(/&lt;/g, "<");
+	s = s.replace(/&amp;/g, "&"); 
+	s = s.replace(/&nbsp;/g, " ");
+	s = s.replace(/&#39;/g, "\'");
+	s = s.replace(/&quot;/g, "\"");
+	s = s.replace(/<br>/g, "\n");
+	s = s.replace(/&#x3D;/g, "=")   //迫不得已的方法
+		return s;
+}
+var getPostsByTag=function(tag_name) {
+    window.open("/articlesByName/" + tag_name);
+}
+</script>
+

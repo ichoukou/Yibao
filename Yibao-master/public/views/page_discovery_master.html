@@ -1,0 +1,28 @@
+<div id="tab3">
+	<div id="page-master-content">		
+		<div class="master-comments">
+			<div class="feed" ng-repeat="item in items">
+			<div class="master-info">
+				<div class="profile">
+					<img ng-src="{{item.profile}}">
+				</div>
+				<div class="info">
+					<span class="name">{{item.nickname}}</span>
+					<span class="small">({{item.grade}})</span><br/>
+					<span class="info-infor">{{item.province}}&nbsp;{{item.city}}&nbsp;<small>{{item.follownum}}人关注</small></span>
+				</div>
+				<div class="addfollow">
+					+关注
+				</div>
+			</div>
+			<div class="picture">
+				<img ng-src="{{item.picUrl}}">
+				<img ng-src="{{item.picUrl}}">
+				<img ng-src="{{item.picUrl}}">
+				<img ng-src="{{item.picUrl}}">
+				<img ng-src="{{item.picUrl}}">
+			</div>
+			</div>
+		</div>
+	</div>
+</div>

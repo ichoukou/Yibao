@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="stylesheets/page_selectIdentity.css" type="text/css" media="screen" />
+<div id="page_selectIdentity">
+		<div class="main-title">
+			<div class="title_back">
+				<i class="fa fa-angle-left"></i>
+			</div>
+			<div class="title_name">
+				选择身份
+			</div>
+			<!--选择身份后显示-->
+			<div class="finish" ng-click="finish()">
+				完成
+			</div>
+		</div>
+		<!--选择身份-->
+		<div class="varitied">
+			<div class="contain">
+			<div class="student view" ng-class="{'selected':isShow}" ng-click="status='student';isShow=true">
+			</div>
+			</div>
+			<div class="contain">
+			<div class="teacher view" ng-class="status=='teacher'? 'selected' : ' ' " ng-click="status='teacher';isShow=false">
+			</div>
+			</div>
+			<div class="contain">
+			<div class="studio view" ng-class="status=='studio'? 'selected' : ' ' " ng-click="status='studio';isShow=false">
+			</div>
+			</div>
+			<div class="contain">
+			<div class="other view" ng-class="status=='other'? 'selected' : ' ' " ng-click="status='other';isShow=false">
+			</div>
+			</div>
+		</div> 
+		<!--当学生身份时显示-->
+		<div class="content" ng-show="isShow">
+			<div class="directive">
+				<i class="fa fa-caret-down"></i>
+			</div>
+			<div class="column">
+				<div class="grade ing" ng-class="status=='student_ing'? 'selected' : ' ' " ng-click="status='student_ing'">艺考中</div>
+				<div class="grade next" ng-class="status=='student_next'? 'selected' : ' ' " ng-click="status='student_next'">艺考前</div>
+				<div class="grade ed" ng-class="status=='student_ed'? 'selected' : ' ' " ng-click="status='student_ed'">艺考后</div>
+			</div>
+		</div>

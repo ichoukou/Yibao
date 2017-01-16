@@ -1,0 +1,86 @@
+<div class="page" id="page_feeds">
+  <div class="header">
+	<span class="header-left">
+	  <i class="fa fa-th-large"></i>
+	</span>
+	
+	<span class="header-center header-name">庞雨秾pyn</span>
+	<span class="header-right" style="position: relative;top: 7px;left:10%;">
+	  <i class="icon icon-message"></i>
+	</span>
+  </div>
+
+  <div class="transition-line">
+  </div>
+  <div class="tab">
+	<div id="tab-all" class="focused">
+	  全&nbsp;部
+	</div>
+	<div id="tab-follow" class="unfocused">
+	  关&nbsp;注
+	</div>
+  </div>
+
+  <div id="page-feeds-content">
+	<div class="loading" ng-if="isLoading">
+	  内容加载中 ...
+	</div>
+	<div class="content" ng-if="!isLoading">
+	  <div class="feed" ng-repeat="feed in feeds">
+		<div class="card" ui-sref=".detail({feedid:feed._id})">
+		  <div class="info">
+			<div class="head">
+			  <img ng-src="{{feed.owner.profile}}" />
+			</div>
+			<div class="data">
+			  <div class="upper">
+				<div class="name">{{feed.owner.nickname}}</div>
+				<div class="classNo">（{{feed.owner.grade}}）</div>
+			  </div>
+			  <div class="down">
+				<div class="time">{{feed.editTime | HQDate}}</div>
+				<div class="province">{{feed.district}}</div>
+				<div class="city">{{feed.city}}</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="works">
+			<div class="image">
+			  <img ng-click="viewPic(feed._id)"
+				   ng-src="{{feed.picUrl}}"/></div>
+			<div class="text">{{feed.content}}</div>
+		  </div>
+		  <div class="category">
+			<i class="fa fa-tag"></i>
+			<span class="tag">
+			  {{feed.tags | arrayConcat}}
+			</span>
+		  </div>
+		  </div>
+		  <div class="comment">
+			<div class="pageview">
+			  <i class="fa fa-eye"></i>
+			  <span>{{feed.viewNum}}</span>
+			</div>
+			<div class="love">
+			  <i class="fa fa-thumbs-o-up" ng-class="feed.isFavour ? 'up' : 'down'"></i>
+			  <span>{{feed.favourNum}}</span>
+			</div>
+			<div class="collection">
+			  <i class="fa fa-star" ng-class="feed.isKudo ? 'up' : 'down'"></i>
+			  <span>{{feed.kudoNum}}</span>
+			</div>
+			<div class="comments" ng-click="viewComment(feed._id)">
+			  <i class="icon-comment"></i>
+			</div>
+		  </div>
+		</div>
+	  
+	</div>
+  </div>
+
+
+</div>
+<!-- Here is for ui-router's modal -->
+<!-- The reason is that, the child state needs at least one ui-view to init controller -->
+<div class="hidden" ui-view></div>

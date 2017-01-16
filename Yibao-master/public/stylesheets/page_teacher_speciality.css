@@ -1,0 +1,130 @@
+#page_teacher_speciality
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:2;
+	padding:0;
+	margin:0;
+	font-family: "Microsoft YaHei";
+}
+#page_teacher_speciality .header
+{
+	width:100%;
+	height:38px;
+	line-height: 38px;
+	background:rgb(247,247,247);
+	-webkit-box-shadow:0 1px 2px #b7b7b7;  
+ 	-moz-box-shadow:0 1px 2px #b7b7b7;  
+    box-shadow:0 1px 2px #b7b7b7;
+    margin-bottom: 2.7px; 
+    text-align: center;
+}
+#page_teacher_speciality .header-name
+{
+	color: black;
+	font-size: 18px;
+}
+#page_teacher_speciality .fa-angle-left
+{
+	color:rgb(137,137,137);
+	font-size: 26px;
+	position: absolute;
+	top:9px;
+	left:4.5%;
+	float: left;
+}
+#page_teacher_speciality .fa-angle-left:active
+{
+	color:rgb(255,177,57);
+}
+#page_teacher_speciality .main-content
+{
+	position: fixed;
+	height:auto;
+	width:100%;
+	bottom:0;
+	top:38px;
+	z-index: 1;
+	background: rgb(235,235,235);
+	overflow: auto;
+}
+#page_teacher_speciality .content
+{
+	position: absolute;
+	top:40.7px;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+#page_teacher_speciality .box
+{
+	position: absolute;
+	float: left;
+	width: 140px;
+	height: 30px;
+	margin-top: 22px;
+}
+#page_teacher_speciality .box2
+{
+	position: absolute;
+	top: 80px;
+}
+#page_teacher_speciality .box3
+{
+	position: absolute;
+	top: 160px;
+}
+#page_teacher_speciality .left
+{
+	left: 0;
+}
+#page_teacher_speciality .center
+{
+	left: 50%;
+    transform: translate(-50%, -0);
+}
+#page_teacher_speciality .right
+{
+	right: 0;
+}
+#page_teacher_speciality .rect
+{
+	width:70px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: rgb(71,176,199);
+    color: white;
+    border-radius:2px;
+    position: absolute; 
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%, -50%);
+}
+#page_teacher_speciality .fa-check
+{
+	position: absolute;
+	right: 28px;
+	bottom: 3px;
+	color: white;
+}
+#page_teacher_speciality .fa-circle
+{
+	color: rgb(172,172,172);
+}
+#page_teacher_speciality .red
+{
+	color: rgb(255,60,80);
+}
+#page_teacher_speciality .fa-stack
+{
+	position: absolute;
+	right: 25px;
+	bottom: -4px;
+	font-size: 9px;
+}

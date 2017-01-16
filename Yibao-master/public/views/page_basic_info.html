@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="stylesheets/page_basic_info.css" type="text/css" media="screen" />
+<div class="page" id="page_basic_info">
+		<div class="title">
+			<div class="title_back">
+				<i class="fa fa-angle-left"></i>
+			</div>
+			<div class="title_name">
+				基本信息
+			</div>
+			<div class="next" ng-click="next()">
+				下一步
+			</div>
+		</div>
+		<i class="icon icon-camera" ng-click="selectimg"></i>
+		<div class="sex">
+			<div class="man"><span id="man" ng-click="form.gender=true" ng-class="{true :'maleselected',false :'boselected'}[form.gender]">男</span></div>
+			<div class="woman"><span id="woman" ng-click="form.gender=false" ng-class="{true :'femaleselected',false :'boselected'}[!form.gender]">女</span></div>
+		</div>
+		<div class="clear"></div>
+		<div class="form">
+		<input type="text" class="input-name" ng-model="form.name" placeholder="请输入您的名字">
+		<div class="column" ng-click="select()">
+			<span>{{form.district}}</span>
+			<i class="fa fa-angle-right">
+			</i>
+		</div>
+		</div>
+	</div>

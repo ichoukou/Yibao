@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="stylesheets/page_suggested_follow.css" type="text/css" media="screen" />
+<div class="page" id="page_suggested_follow">
+		<div class="title">
+			<div class="title_back">
+				<i class="fa fa-angle-left"></i>
+			</div>
+			<div class="title_name">
+				推荐关注
+			</div>
+			<div class="next" ng-click="next()">
+				下一步
+			</div>
+		</div>
+		<div class="tab">
+			<div id="tab-all" ng-class="status=='student'? 'focused' : ' unfocused' " ng-click="getStudentList()">
+				推荐画霸
+			</div>
+			<div id="tab-comment" ng-class="status=='teacher'? 'focused' : ' unfocused' " ng-click="getTeacherList()">
+				人气名师
+			</div>
+			<div id="tab-state" ng-class="status=='studio'? 'focused' : ' unfocused' " ng-click="getStudioList()">
+				热门画室
+			</div>
+		</div>
+		<div id="feed-contents">
+			<div class="feed" ng-repeat="person in persons">
+			<div class="user-comments">
+				<div class="user-info">
+					<div class="profile">
+						<img ng-src="{{person.profile}}"/>
+					</div>
+					<div class="info">
+						<span class="name">{{person.username}}</span><br/>
+						<span class="info-infor">{{person.district}}&nbsp;{{person.city}}&nbsp;{{person.follownum}}人关注</span>
+					</div>
+					<div class="addfollow" ng-click="addfollow()">
+						+关注
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

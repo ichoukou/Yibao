@@ -1,0 +1,72 @@
+#page_camera{
+	background : #f7f7f7
+}
+#page_camera .content {
+	position : absolute;
+	top : 39px;
+	width : 100%;
+	bottom : 0;
+	min-height: 350px;
+}
+#page_camera .content .form{
+	height : 134px;
+	width : 100%;
+	background:white;
+	position : relative;
+	font-size : 13px;
+}
+#page_camera .content .form .first-row{
+	position : absolute;
+	width : 100%;
+	top : 0;
+	bottom : 0;
+}
+#page_camera .content .form .img-box{
+	width : 130px;
+	height : 130px;
+	float : left;
+}
+
+#page_camera .header .next {
+    font-size: 17px;
+    color: rgb(71,169,199);
+}
+.img-box .uploadBtn{
+	position:relative;
+	top : 5%;
+	margin:auto;
+	width : 117px;
+	height: 117px;
+	line-height : 117px;
+	text-align : center;
+	background : #b7b7b7;
+	font-size: 48px;
+}
+.img-box .uploadBtn:active{
+	background : #A0A0A0;
+}
+.img-box .uploadBtn .fa{
+	color : white;
+}
+
+#page_camera .content .form .text-area{
+	position: absolute;
+    left: 131px;
+    right: 6px;
+    height: 105px;
+    padding: 5px 10px;
+    top: 5%;
+    border: 1px solid #F1F1F1;
+}
+
+
+.slogan{
+	position:absolute;
+	width : 100%;
+	bottom : 70px;
+}
+.slogan img{
+	width: 65%;
+    display: block;
+    margin: auto;
+}

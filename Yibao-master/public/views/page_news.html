@@ -1,0 +1,22 @@
+
+<div class="page" id="page_news">
+
+  <div class="header">
+	<span class="header-left">
+	  &nbsp;
+	</span>
+	
+	<span class="header-center header-name">攻略</span>
+	<span class="header-right">
+	  <i class="fa fa-search"
+		 ui-sref="base.search" ui-sref-active="active"></i>
+	</span>
+  </div>
+
+	<div class="tab">
+	  <div id="tab_strategy" class="tab-item" ui-sref=".strategy" ng-click ui-sref-active="active">备考攻略</div>
+		<div id="tab_consult" class="tab-item" ui-sref=".zixun" ng-click ui-sref-active="active">艺考资讯</div>
+	</div>
+	<div ui-view class="content slide"></div>
+	
+</div>

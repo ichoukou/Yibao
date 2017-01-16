@@ -1,0 +1,53 @@
+[
+  {
+    "_id" : "23244777",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "nickname"  :"北京清美画室",
+    "district" : "北京",
+    "city" : "北京市",
+    "ranking" : 1,
+    "apply" : 2000,
+    "fansnum" : 2000
+
+  },
+  {
+    "_id" : "23244776",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "nickname"  :"北京清美画室",
+    "district" : "北京",
+    "city" : "北京市",
+    "ranking" : 2,
+    "apply" : 2000,
+    "fansnum" : 1900
+  },
+  {
+    "_id" : "23244775",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "nickname"  :"北京清美画室",
+    "district" : "北京",
+    "city" : "北京市",
+    "ranking" : 3,
+    "apply" : 2000,
+    "fansnum" : 1800
+  },
+  {
+    "_id" : "23244775",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "nickname"  :"北京清美画室",
+    "district" : "北京",
+    "city" : "北京市",
+    "ranking" : 4,
+    "apply" : 2000,
+    "fansnum" : 1700
+  },
+  {
+    "_id" : "23244775",
+    "profile" : "http://www.touxiang.cn/uploads/20131114/14-065802_226.jpg",
+    "nickname"  :"北京清美画室",
+    "district" : "北京",
+    "city" : "北京市",
+    "ranking" : 5,
+    "apply" : 2000,
+    "fansnum" : 1600
+  }
+]

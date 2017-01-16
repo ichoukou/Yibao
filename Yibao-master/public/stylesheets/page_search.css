@@ -1,0 +1,74 @@
+#page_search
+{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	overflow: scroll;
+	padding:0;
+	margin:0;
+	font-family: "Microsoft YaHei";
+}
+#page_search .header
+{
+	color: rgb(71,176,199);
+	font-size: 15px;
+}
+#page_search input
+{
+	border: none;
+	width: 77.9%;
+	height: 18px;
+	background-color: #eaeaea;
+}
+#page_search .content
+{
+	background: white;
+	height: auto;
+	padding: 20px 16px 0 16px;
+	margin-bottom: 12px;
+}
+#page_search .title
+{
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	color: rgb(169,169,169);
+	border-bottom:1px solid rgb(169,169,169) ;
+}
+#page_search .profile,#page_search img
+{
+	float: left;
+	height: 33px;
+	width: 33px;
+	border-radius: 50%;
+	position: relative;
+	top:5px;
+	margin-right: 7px;
+}
+#page_search img
+{
+	position: relative;
+	top:-2px;
+}
+#page_search .name
+{
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	color: rgb(56,56,56);
+	border-bottom:1px solid rgb(169,169,169) ;
+}
+#page_search .more
+{
+	height: 45px;
+	line-height: 45px;
+	font-size: 12px;
+	color: rgb(71,176,199);
+}
+#page_search .more .fa-search
+{
+	font-size: 17px;
+}
